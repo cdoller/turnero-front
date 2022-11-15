@@ -4,10 +4,14 @@ import Carrousel from '../components/Carrousel'
 const Home = ()=>{
 
     return (
-        <div>
+        <section className='Home'>
             <h1>Este es el home</h1>
-            <Carrousel></Carrousel>
-        </div>
+            <div className='Cards'>
+                <Carrousel></Carrousel>
+                <Carrousel></Carrousel>
+                <Carrousel></Carrousel>
+            </div>
+        </section>
     )
 }
 
