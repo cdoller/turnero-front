@@ -1,17 +1,25 @@
 import '../assets/css/Home.css'
 import Carrousel from '../components/Carrousel'
+import Header from '../components/Header'
 
 const Home = ()=>{
 
     return (
-        <section className='Home'>
-            <h1>Este es el home</h1>
-            <div className='Cards'>
-                <Carrousel></Carrousel>
-                <Carrousel></Carrousel>
-                <Carrousel></Carrousel>
+        <div className= 'Home' >
+        <Header></Header>
+        <section>
+            <h1>
+
+            </h1>
+            <p>
+
+            </p>
+            <button> </button>
+            <div>
+                *
             </div>
         </section>
+        </div>
     )
 }
 

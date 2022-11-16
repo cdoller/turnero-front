@@ -1,18 +1,4 @@
 .Home{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    background-color: green;
+    background-color: rgb(107, 69, 12);
     height: 100vh;
-}
-
-h1{
-    background-color: aqua;
-}
-
-.Cards{
-    display: flex;
-    flex-direction: row;
-    background-color: bisque;
 }

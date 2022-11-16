@@ -1,0 +1,16 @@
+
+header{
+    background-color: blue;
+    height: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    background-color: antiquewhite;
+}
+li{
+    margin: 15px;
+
+}
