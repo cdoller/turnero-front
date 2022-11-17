@@ -1,10 +1,9 @@
 import React from "react";
 import imgTurnero from '../assets/statics/logoTurnero.png'
 import '../assets/css/Header.css'
-import '../assets/css/Button.css'
 
 const Header = () => {
-
+ 
     return(
         <header>
             <img src={imgTurnero} width="200px" height="200px" alt='imagenTurneo'/>
