@@ -1,6 +1,7 @@
 import logo from '../logo.svg';
 import '../assets/css/App.css';
 import HomePage from '../containers/HomePage';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
