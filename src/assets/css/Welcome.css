@@ -11,9 +11,11 @@
     margin: 50px;
 }
 
-button{
+.button{
     background-color: goldenrod;
     color:aliceblue;
     padding: 10px 20px;
     font-weight: 500;
+    border-radius: 10px;
+
 }

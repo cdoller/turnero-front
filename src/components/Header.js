@@ -10,27 +10,27 @@ const Header = () => {
             <nav>
                 <ul>
                     <li>
-                        <a href="#seccionInfo">
+                        <a href="#seccionInfo" className='text-decoration-none'>
                             Informacion
                         </a>                        
                     </li>
                     <li>
-                        <a href="#seccionProducto">
+                        <a href="#seccionProducto" className='text-decoration-none'>
                             Producto
                         </a>
                     </li>
                     <li>
-                        <a href="#seccionServicios">
+                        <a href="#seccionServicios" className='text-decoration-none'>
                             Servicios
                         </a>
                     </li>
                     <li>
-                        <a href="#seccionQS">
+                        <a href="#seccionQS" className='text-decoration-none'>
                             Quienes somos
                         </a>
                     </li>
                     <li>
-                        <a href="#seccionContacto">
+                        <a href="#seccionContacto" className='text-decoration-none'>
                             Contacto
                         </a>
                     </li>
