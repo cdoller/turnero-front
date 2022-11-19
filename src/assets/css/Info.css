@@ -1,8 +1,36 @@
 .Info{
+    
+    align-items: flex-start;
+    background-color: #ffffff;
+    height: 100vh;
+}
+
+.Container{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-start;
-    background-color: rgb(192, 142, 92);
-    height: 100vh;
+    width: 100vw;
+}
+
+.Row{
+    width: 100vw;
+    height: 80vh;
+}
+.Col1{
+    background-color: orangered;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.Col3{
+    text-align: initial;
+    margin-top: 180px;
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.TitleColor{
+    color: orange;
+}
+p{
+    text-align:left;
 }
