@@ -1,0 +1,8 @@
+.Info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: rgb(192, 142, 92);
+    height: 100vh;
+}
