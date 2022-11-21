@@ -1,6 +1,7 @@
-import logo from '../logo.svg';
 import '../assets/css/App.css';
 import HomePage from '../containers/HomePage';
+
+
 
 function App() {
   return (

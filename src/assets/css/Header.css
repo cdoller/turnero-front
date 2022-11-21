@@ -7,20 +7,21 @@ header{
     align-items:stretch;
     border-bottom: 1px solid rgb(12, 12, 11);
 }
-ul{
+nav ul{
     display: flex;
-    justify-content: center;
-    text-align: justify;
+    text-align: center;
     width: 100%;
     padding: 0.5rem;
-    background-color: rgb(245, 215, 250);
-}
-li{
+    background-color: green;
     list-style: none;
+}
+nav li{
     margin: 15px;
     padding: 1rem;
-    background-color: rgb(68, 32, 67);
+    background-color: orangered;
 }
-a{
+nav a{
     text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
 }
