@@ -15,7 +15,7 @@ const Header = () => {
                         </a>                        
                     </li>
                     <li>
-                        <a href="#seccionProducto">
+                        <a href="#seccionProducto"> 
                             Producto
                         </a>
                     </li>

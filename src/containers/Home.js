@@ -1,6 +1,7 @@
 import '../assets/css/Home.css'
 import Carrousel from '../components/Carrousel'
 
+
 const Home = ()=>{
 
     return (
@@ -16,5 +17,8 @@ const Home = ()=>{
         </div>
     )
 }
+
+
+
 
 export default Home

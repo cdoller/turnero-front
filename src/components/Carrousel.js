@@ -12,8 +12,8 @@ const Carrousel = (props)=>{
         <Carousel>
             <Carousel.Item>
                 <img
-                className="d-block w-100"
-                src={iconohojitas}
+                className="d-block w-50"
+               src={iconohojitas}
                 alt="First slide"
                 />
                 <Carousel.Caption>
@@ -23,7 +23,7 @@ const Carrousel = (props)=>{
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                className="d-block w-100"
+                className="d-block w-50"
                 src={iconoesteto}
                 alt="Second slide"
                 />
@@ -35,7 +35,7 @@ const Carrousel = (props)=>{
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                className="d-block w-100"
+                className="d-block w-50"
                 src={iconobarbijo}
                 alt="Third slide"
                 />
