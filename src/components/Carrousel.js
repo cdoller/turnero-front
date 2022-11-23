@@ -4,14 +4,12 @@ import InicioPic2 from '../assets/statics/esteto.jpg';
 import InicioPic3 from '../assets/statics/hojitas.jpg'; 
 import '../assets/css/Carrousel.css';
 import Welcome from './Welcome';
-import Header from './Header';
 
 const Carrousel = (props)=>{
     // hacer deconstruccion de props
 
     return (
         <Carousel className='styleCarrousel'>
-            <Header></Header>
             <Carousel.Item className='itemCarousel'>
                 <img
                 height={900}
