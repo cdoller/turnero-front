@@ -7,15 +7,12 @@
     text-align: left;
 }
 
+.container{
+    padding: 10%;
+}
+
 .row{
     margin: 50px;
+    text-align: left;
 }
 
-.button{
-    background-color: goldenrod;
-    color:aliceblue;
-    padding: 10px 20px;
-    font-weight: 500;
-    border-radius: 10px;
-
-}

@@ -12,8 +12,7 @@ const Welcome = () => {
             </div>
             <div className="row">
                 <button className="col-2 btn btn-primary">Read more</button> 
-            </div>
-            
+            </div>            
         </div>
         
     )

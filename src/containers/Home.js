@@ -1,20 +1,16 @@
 import '../assets/css/Home.css'
 import Carrousel from '../components/Carrousel'
 import Header from '../components/Header'
-import Welcome from './Welcome'
+import Welcome from '../components/Welcome'
+
 
 const Home = ()=>{
 
     return (
         <div className= 'Home' >
-        <Header></Header>
-        <section className='Welcome'>
-            <div>
-                <img src=''></img>
+        <Header></Header>        
+        <Carrousel ></Carrousel>    
         <Welcome></Welcome>
-            
-            </div>
-        </section>
         </div>
     )
 }
