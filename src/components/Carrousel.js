@@ -9,6 +9,8 @@ const Carrousel = (props)=>{
     // hacer deconstruccion de props
 
     return (
+        <>
+        <body>
         <Carousel className='styleCarrousel'>
             <Carousel.Item className='itemCarousel'>
                 <img
@@ -46,7 +48,10 @@ const Carrousel = (props)=>{
                 </Carousel.Caption>
             </Carousel.Item>
             
-    </Carousel>
+        </Carousel>
+        </body>
+        </>
+        
     );
 }
 

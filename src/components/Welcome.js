@@ -1,9 +1,13 @@
 import React from "react";
 import '../assets/css/Welcome.css';
+import NewHeader from "./NewHeader";
 
 const Welcome = () => {
     return (
         <div className="container">
+            <header>
+                <NewHeader></NewHeader>
+            </header>
             <div className="row">
                 <h1 className="col-8">Bienvenidos</h1>
             </div>
