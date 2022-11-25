@@ -1,6 +1,6 @@
-@import 'variables/colores';
-@import 'variables/formato'; 
-@import 'mixins/animaciones';
+@import './variables/colores';
+//@import 'variables/formato'; 
+@import './mixins/animaciones';
 
 main {
     a { 
@@ -19,7 +19,6 @@ main {
     @include lighthover ($tercer-color);
 }
 
-_______________
 
 @mixin lighthover($color){
     &:hover{
