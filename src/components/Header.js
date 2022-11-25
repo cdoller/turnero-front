@@ -6,8 +6,12 @@ import '../assets/css/Header.css'
 const Header = () => {
  
     return(
-        <header>
-            <img src={imgTurnero} width="200px" height="200px" alt='imagenTurneo'/>
+        <header> 
+            <img src={imgTurnero} 
+            a href="#Home" 
+            width="200px" 
+            height="200px" 
+            alt='imagenTurneo'/>
             <nav>
                 <ul>
                     <li>

@@ -1,0 +1,19 @@
+@mixin lighthover($color){
+    &:hover{
+        color: mix($color, #fff, 20%);
+        text-shadow: $color 0px 0px 6px, $color 0px 0px 10px
+        }
+}
+
+@mixin lightsaber($color){
+    background: mix($color, #fff, 80%);
+    box-shadow: $color 0px 0px 0px 2px;
+    &:hover {
+        box-shadow: $color 0px 0px 20px 2px;
+        text-shadow: $color 0px 0px 6px, $color 0px 0px 10px;
+    }
+}
+
+@mixin transicionesConfig ($time) {
+    transition: all $time;
+}

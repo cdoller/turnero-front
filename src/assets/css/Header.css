@@ -4,20 +4,21 @@ header{
     display: flex;
     justify-content:space-between;
     align-items:stretch;
-    border-bottom: 1px solid rgb(12, 12, 11);
+    border-bottom: px solid rgb(12, 12, 11);
 }
 nav ul{
     display: flex;
     text-align: center;
     width: 100%;
     padding: 0.5rem;
-    background-color: green;
+    background-color: orange;
     list-style: none;
 }
 nav li{
     margin: 15px;
     padding: 1rem;
     background-color: orangered;
+    border-bottom: 3px solid salmon
 }
 nav a{
     text-decoration: none;
