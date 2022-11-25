@@ -1,4 +1,4 @@
-@mixin lighthover($color){
+@mixin lighthover($primary){
     &:hover{
         color: mix($color, #fff, 20%);
         text-shadow: $color 0px 0px 6px, $color 0px 0px 10px
