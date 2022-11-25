@@ -1,0 +1,26 @@
+header {
+  color: rgb(236, 238, 230);
+  background-color: rgb(121, 23, 121);
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+header nav li {
+  margin: 15px;
+  padding: 30px;
+}
+header nav li:hover {
+  font-weight: bold;
+  background-color: orange;
+}
+header nav a {
+  text-decoration: none;
+  color: rgb(236, 238, 230);
+}
+header nav a:hover {
+  color: rgb(236, 238, 230);
+}

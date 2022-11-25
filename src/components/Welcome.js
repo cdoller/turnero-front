@@ -3,6 +3,7 @@ import '../assets/css/Welcome.css';
 
 const Welcome = () => {
     return (
+        
         <div className="container">
             <div className="row">
                 <h1 className="col-8">Bienvenidos</h1>

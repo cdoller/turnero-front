@@ -19,7 +19,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "sass-watch-dev": "sass --watch -c --style=expanded --no-source-map src/assets/sass:src/assets/style/css",
+    "sass-compile-dev": "sass -c --style=expanded --no-source-map src/assets/sass:src/assets/style/css",
+    "sass-compile-prod": "sass -c --style=compressed src/assets/sass:src/assets/style/css"
   },
   "eslintConfig": {
     "extends": [

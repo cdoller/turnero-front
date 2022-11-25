@@ -16,7 +16,8 @@ main {
 }
 
 .tituloSass {
-    @include lighthover ($tercer-color)
+    @include lighthover ($tercer-color);
+}
 
 _______________
 
@@ -38,4 +39,35 @@ _______________
 
 @mixin transicionesConfig ($time) {
     transition: all $time;
+}
+@import 'mixins/animaciones.scss';
+
+nav {
+    background-color: orange;
+    border:grey solid 0.4rem;
+     
+    @include lightsaber(white); 
+    @include transicionesConfig(.2s);
+    ul {
+        list-style: none;
+        display: flex;
+        text-align: justify;
+        padding: 0.5rem;
+    }
+    li {
+        padding: 1rem;
+        &:hover {
+            background-color: grey;
+        }
+    }
+    a {
+        text-decoration: none;
+        color:$white;
+        padding: 0.5rem;
+    }
+}
+
+.textNav{
+    @include lightsaber(white); 
+    @include transicionesConfig(.2s);
 }
