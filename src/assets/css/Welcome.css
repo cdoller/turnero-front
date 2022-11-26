@@ -1,0 +1,19 @@
+.Welcome{
+    margin: 80px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.row{
+    margin: 50px;
+}
+
+button{
+    background-color: goldenrod;
+    color:aliceblue;
+    padding: 10px 20px;
+    font-weight: 500;
+}

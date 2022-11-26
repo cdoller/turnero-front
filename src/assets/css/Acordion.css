@@ -1,0 +1,23 @@
+
+
+.ContenedorAcordeon{
+         width:90%;
+         max-width: 700px;
+       background-color: lightskyblue;
+         padding: 20px;
+        }
+
+/*.Accordion.Item eventKey="1"{
+  background-color: aqua;
+  height: 100vh;
+  background-image: url(../public/logo192.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  display: flex;
+  align-items: center;
+}*/
+
+
+
+
+
