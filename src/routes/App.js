@@ -1,23 +1,20 @@
-import '../assets/css/App.css';
-import HomePage from '../containers/HomePage';
-import "bootstrap/dist/css/bootstrap.min.css";
+import Home from '../containers/Home';
 import Pyr from '../containers/Pyr';
 import Contacto from '../containers/Contacto';
-import Header from '../components/Header';
 import Info from '../containers/Info';
-
-
+import '../assets/css/App.css'
 
 
 function App() {
   return (
     <div className="App">
       {/* <Header></Header> */}
-      <HomePage></HomePage>
+      <Home></Home>
       <Info></Info>
+      {/* <OtraSeccion></OtraSeccion> */}
       <Pyr></Pyr>
       <Contacto></Contacto>
-
+      {/* <Footer></Footer> */}
     </div>
   );
 }
