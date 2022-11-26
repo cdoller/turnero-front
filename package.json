@@ -13,13 +13,17 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.3",
     "react-scripts": "5.0.1",
+    "sass": "^1.56.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "sass-watch-dev": "sass --watch -c --style=expanded --no-source-map src/assets/sass:src/assets/css",
+    "sass-compile-dev": "sass -c --style=expanded --no-source-map src/assets/sass:src/assets/css",
+    "sass-compile-prod": "sass -c --style=compressed src/assets/sass:src/assets/css"
   },
   "eslintConfig": {
     "extends": [
