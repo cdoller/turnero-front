@@ -1,5 +1,19 @@
-.styleCarrousel {
-width: 50vw;
-height: 50vh;
-box-sizing: border-box;
+.styleCarrousel{
+    width: 100vw;
+    height: auto;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.styleItem{
+    object-fit:'contain';
+}
+
+.imagenesCarousel{
+    object-fit: cover;
+    max-block-size: 100vh;
+
+}
+.textoCarousel{
+    color: blue;
 }

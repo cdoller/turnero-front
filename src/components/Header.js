@@ -1,36 +1,42 @@
 import React from "react";
 import imgTurnero from '../assets/statics/logoTurnero.png'
-import '../assets/css/Header.css'
+import '../assets/css/index.css'
+
+
 
 const Header = () => {
  
     return(
-        <header>
-            <img src={imgTurnero} width="200px" height="200px" alt='imagenTurneo'/>
+        <header> 
+            <img src={imgTurnero} 
+            a href="#Home" 
+            width="200px" 
+            height="200px" 
+            alt='imagenTurneo'/>
             <nav>
                 <ul>
                     <li>
-                        <a href="#seccionInfo">
+                        <a href="#seccionInfo" className='textNav'>
                             Informacion
                         </a>                        
                     </li>
                     <li>
-                        <a href="#seccionProducto"> 
+                        <a href="#seccionProducto" className='textNav'>
                             Producto
                         </a>
                     </li>
                     <li>
-                        <a href="#seccionServicios">
+                        <a href="#seccionServicios" className='textNav'>
                             Servicios
                         </a>
                     </li>
                     <li>
-                        <a href="#seccionQS">
+                        <a href="#seccionQS" className='textNav'>
                             Quienes somos
                         </a>
                     </li>
                     <li>
-                        <a href="#seccionContacto">
+                        <a href="#seccionContacto" className='textNav'>
                             Contacto
                         </a>
                     </li>

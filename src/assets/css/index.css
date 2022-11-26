@@ -1,4 +1,27 @@
-.formcontainer {
-  background-color: #BBDEFB;
-  padding: 10px;
+header {
+  color: rgb(236, 238, 230);
+  background-color: rgb(216, 157, 216);
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+header nav li {
+  margin: 15px;
+  padding: 30px;
+}
+header nav li:hover {
+  font-weight: bold;
+  background-color: orange;
+}
+header nav a {
+  text-decoration: none;
+  color: rgb(236, 238, 230);
+}
+header nav a:hover {
+  color: rgb(236, 238, 230);
 }

@@ -7,13 +7,12 @@
     text-align: left;
 }
 
-.row{
-    margin: 50px;
+.container{
+    padding: 20%;
 }
 
-button{
-    background-color: goldenrod;
-    color:aliceblue;
-    padding: 10px 20px;
-    font-weight: 500;
+.row{
+    margin: 50px;
+    text-align: left;
 }
+

@@ -1,52 +1,51 @@
 import Carousel from 'react-bootstrap/Carousel';
-import iconoMessi from "../assets/statics/messi.png";
-import iconohojitas from "../assets/statics/hojitas.jpg";
-import iconoesteto from "../assets/statics/esteto.jpg";
-import iconobarbijo from "../assets/statics/barbijo.jpg";
-
+import InicioPic1 from '../assets/statics/barbijo.jpg';
+import InicioPic2 from '../assets/statics/esteto.jpg';
+import InicioPic3 from '../assets/statics/hojitas.jpg'; 
+import '../assets/css/Carrousel.css';
+import Welcome from './Welcome';
 
 const Carrousel = (props)=>{
     // hacer deconstruccion de props
 
     return (
-        <Carousel>
-            <Carousel.Item>
+        <Carousel className='styleCarrousel'>
+            <Carousel.Item className='itemCarousel'>
                 <img
-                className="d-block w-50"
-               src={iconohojitas}
+                height={900}
+                className="d-block w-100 imagenesCarousel"                            
+                src={InicioPic1}
                 alt="First slide"
                 />
-                <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <Carousel.Caption >
+                    <Welcome></Welcome>                               
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                className="d-block w-50"
-                src={iconoesteto}
+                height={900}
+                className="d-block w-100 imagenesCarousel"
+                src={InicioPic2}
                 alt="Second slide"
                 />
-
-                <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <Carousel.Caption >
+                    <Welcome></Welcome>
+                               
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                className="d-block w-50"
-                src={iconobarbijo}
+                height={900}
+                className="d-block w-100 imagenesCarousel"
+                src={InicioPic3}
                 alt="Third slide"
                 />
-
-            <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-            </Carousel.Caption>
-        </Carousel.Item>
+                <Carousel.Caption >
+                    <Welcome></Welcome>
+                               
+                </Carousel.Caption>
+            </Carousel.Item>
+            
     </Carousel>
     );
 }

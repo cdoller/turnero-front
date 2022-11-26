@@ -1,0 +1,72 @@
+@import './variables/colores';
+//@import 'variables/formato'; 
+@import './mixins/animaciones';
+
+main {
+    a { 
+        text-decoration: none;
+        color: $secondary-color;
+        &:visited {
+            color:$primary-color;
+        }
+        &:hover {
+            font-weight: bold;
+        }
+    }
+}
+
+.tituloSass {
+    @include lighthover ($tercer-color);
+}
+
+
+@mixin lighthover($color){
+    &:hover{
+        color: mix($color, #fff, 20%);
+        text-shadow: $color 0px 0px 6px, $color 0px 0px 10px
+        }
+}
+
+@mixin lightsaber($color){
+    background: mix($color, #fff, 80%);
+    box-shadow: $color 0px 0px 0px 2px;
+    &:hover {
+        box-shadow: $color 0px 0px 20px 2px;
+        text-shadow: $color 0px 0px 6px, $color 0px 0px 10px;
+    }
+}
+
+@mixin transicionesConfig ($time) {
+    transition: all $time;
+}
+@import 'mixins/animaciones.scss';
+
+nav {
+    background-color: orange;
+    border:grey solid 0.4rem;
+     
+    @include lightsaber(white); 
+    @include transicionesConfig(.2s);
+    ul {
+        list-style: none;
+        display: flex;
+        text-align: justify;
+        padding: 0.5rem;
+    }
+    li {
+        padding: 1rem;
+        &:hover {
+            background-color: grey;
+        }
+    }
+    a {
+        text-decoration: none;
+        color:$white;
+        padding: 0.5rem;
+    }
+}
+
+.textNav{
+    @include lightsaber(white); 
+    @include transicionesConfig(.2s);
+}
