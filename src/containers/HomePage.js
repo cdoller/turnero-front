@@ -1,5 +1,6 @@
 import Home from './Home';
 import Productos from './Productos';
+import Info from './Info'
 
 
 const HomePage = ()=>{
@@ -9,6 +10,7 @@ const HomePage = ()=>{
         <>
             <Home></Home>
             <Productos></Productos>
+            <Info></Info>
         </>
     )
 }
