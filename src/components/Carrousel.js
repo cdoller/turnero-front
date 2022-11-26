@@ -1,5 +1,8 @@
 import Carousel from 'react-bootstrap/Carousel';
 import iconoMessi from "../assets/statics/messi.png";
+import iconohojitas from "../assets/statics/hojitas.jpg";
+import iconoesteto from "../assets/statics/esteto.jpg";
+import iconobarbijo from "../assets/statics/barbijo.jpg";
 
 
 const Carrousel = (props)=>{
@@ -9,8 +12,8 @@ const Carrousel = (props)=>{
         <Carousel>
             <Carousel.Item>
                 <img
-                className="d-block w-100"
-                src={iconoMessi}
+                className="d-block w-50"
+               src={iconohojitas}
                 alt="First slide"
                 />
                 <Carousel.Caption>
@@ -20,8 +23,8 @@ const Carrousel = (props)=>{
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                className="d-block w-100"
-                src={iconoMessi}
+                className="d-block w-50"
+                src={iconoesteto}
                 alt="Second slide"
                 />
 
@@ -32,8 +35,8 @@ const Carrousel = (props)=>{
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                className="d-block w-100"
-                src={iconoMessi}
+                className="d-block w-50"
+                src={iconobarbijo}
                 alt="Third slide"
                 />
 
@@ -47,5 +50,6 @@ const Carrousel = (props)=>{
     </Carousel>
     );
 }
+
 
 export default Carrousel;

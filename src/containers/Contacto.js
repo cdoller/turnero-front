@@ -2,8 +2,9 @@ import Form from "../components/Form";
 import FormBootstrap from "../components/FormBootstrap";
 import { useState } from "react";
 import axios from "axios";
+import "../assets/css/Contacto.css";
 
-const Contact2 = ()=>{
+const Contacto = ()=>{
     const [user, setUser] = useState({nombre: "", mail: "", telefono: "", mensaje: ""});
     const [sucess, setSucess] = useState(false);
     const [error, setError] = useState(false);
@@ -37,9 +38,13 @@ const Contact2 = ()=>{
 
     return(
         <div>
-            <FormBootstrap user={user} handleChange={handleChange} handleSubmit={handleSubmit} sucess={sucess} error={error}/>
+            <h2>Contacto</h2>
+            <div className="seccion-contacto">
+                <FormBootstrap user={user} handleChange={handleChange} handleSubmit={handleSubmit} sucess={sucess} error={error}/>
+            </div>
         </div>
+       
     )
 }
 
-export default Contact2;
+export default Contacto;

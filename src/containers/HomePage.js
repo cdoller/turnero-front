@@ -1,6 +1,6 @@
-import Home from './Home';
-import Productos from './Productos';
-import Info from './Info'
+import Welcome from './Welcome';
+import CarrouselPrincipal from '../components/CarrouselPrincipal';
+import "../assets/css/HomePage.css";
 
 
 const HomePage = ()=>{
@@ -8,10 +8,12 @@ const HomePage = ()=>{
 
     return (
         <>
-            <Home></Home>
-            <Productos></Productos>
-            <Info></Info>
+        <div className='home-page'>
+            <CarrouselPrincipal>
+            </CarrouselPrincipal>
+        </div>
         </>
+
     )
 }
 
