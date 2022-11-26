@@ -1,5 +1,4 @@
 import logo from '../logo.svg';
-import '../assets/css/App.css';
 import HomePage from '../containers/HomePage';
 import Contact2 from '../containers/Contact2';
 
