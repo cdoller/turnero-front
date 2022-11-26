@@ -1,0 +1,30 @@
+
+
+.ContenedorAcordeon{
+        width:65%;
+        max-width: 1200px;
+        padding: 20px;
+        background-color: white;
+        border: 1px solid #E3E3E3;
+      }
+
+.ContenedorAcordeon h2{
+  margin-top: 0px;
+  padding: 20px;
+}
+
+.HeaderAcordeon{
+        margin-top: 50px;
+    }
+
+.acordeon-texto{
+  color: #333;
+}
+
+.AcordeonItem{
+  border-top: none;
+  border-bottom: none;
+}
+
+
+
