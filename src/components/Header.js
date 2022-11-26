@@ -1,7 +1,6 @@
 import React from "react";
 import imgTurnero from '../assets/statics/logoTurnero.png'
-//import '../assets/css/Header.css'
-import '../assets/style/css/index.css'
+import '../assets/css/index.css'
 
 
 

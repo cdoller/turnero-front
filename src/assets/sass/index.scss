@@ -1,6 +1,6 @@
-@import 'variables/colores';
-@import 'variables/font';
-@import 'mixins/animaciones';
+@import './variables/colores';
+@import './variables/font';
+@import './mixins/animaciones';
 
 header{
     color: $white;
