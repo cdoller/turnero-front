@@ -1,8 +1,9 @@
 import Accordion from 'react-bootstrap/Accordion';
+import "../assets/css/Acordion.css"
 
 function Acordion() {
   return (
-    <Accordion defaultActiveKey="0">
+    <Accordion defaultActiveKey="0" className='ContenedorAcordeon'>
       <Accordion.Item eventKey="0">
         <Accordion.Header>Medicos</Accordion.Header>
         <Accordion.Body>
