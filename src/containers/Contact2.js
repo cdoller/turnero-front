@@ -1,4 +1,5 @@
 import Form from "../components/Form";
+import FormBootstrap from "../components/FormBootstrap";
 import { useState } from "react";
 import axios from "axios";
 
@@ -14,11 +15,13 @@ const Contact2 = ()=>{
         setUser({...user, [prop]: value});
         setSucess(false);
         setError(false);
+        console.log(user);
     }
 
     const handleSubmit = (event)=>{
         event.preventDefault();
-        //http://127.0.0.1:8000/api/insertarContacto
+        // LOCAL http://127.0.0.1:8000/api/insertarContacto
+        // PRODUCCION https://turnero-proyecto-integrador.herokuapp.com/api/insertarContacto
         axios({
             url: "http://127.0.0.1:8000/api/insertarContacto",
             method: "POST",
@@ -34,7 +37,7 @@ const Contact2 = ()=>{
 
     return(
         <div>
-            <Form user={user} handleChange={handleChange} handleSubmit={handleSubmit} sucess={sucess} error={error}/>
+            <FormBootstrap user={user} handleChange={handleChange} handleSubmit={handleSubmit} sucess={sucess} error={error}/>
         </div>
     )
 }

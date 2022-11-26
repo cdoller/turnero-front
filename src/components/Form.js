@@ -11,7 +11,7 @@ const Form = (props)=>{
                 <input value={user.mail} onChange={props.handleChange} name="mail" type="email" placeholder="jperez@mail.com"/>
 
                 <label htmlFor="telefono">Telefono:</label>
-                <input value={user.telefono} onChange={props.handleChange} name="telefono" type="number" placeholder="+541166556655"/>
+                <input value={user.telefono} onChange={props.handleChange} name="telefono" type="number" placeholder="543517776655"/>
 
                 <label htmlFor="mensaje">Mensaje:</label>
                 <textarea value={user.mensaje} onChange={props.handleChange} name="mensaje" placeholder="Deja tu mensaje...">
