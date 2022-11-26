@@ -1,25 +1,30 @@
 
 
-.acordeon{
+.Accordion.Item eventKey="0"{
          width:90%;
          max-width: 700px;
        background-color: lightskyblue;
-         padding:2px}
+         padding:2px
+         height: 4px;
+        }
 
-.acordeon .bloque{
-        background-color: red;
-         margin: 0 0 1px;
-         padding:1px;
-
+.Accordion.Item eventKey="1"{
+  background-color: aqua;
+  height: 100vh;
+ /* background-image: url(../public/logo192.png);*/
+  background-repeat: no-repeat;
+  background-position: right;
+  display: flex;
+  align-items: center;
 }
 
-.acordeon h2{
+/*.Accordion 1{
         background-color: lime;
          margin: 0 0 1px;
          padding:1px;
 
 }
-.acordeon .contenido{
+/*.Accordion .contenido{
        background-color: orange;
        height: 0;
        padding:0px;
@@ -28,7 +33,7 @@
 
 }
 
-.acordeon .bloque.activo.contenido{
+.Accordion .bloque.activo.contenido{
       height: 4px;
 }
 

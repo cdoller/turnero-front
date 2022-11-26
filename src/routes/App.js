@@ -2,6 +2,7 @@ import logo from '../logo.svg';
 import '../assets/css/App.css';
 import HomePage from '../containers/HomePage';
 import "bootstrap/dist/css/bootstrap.min.css";
+import Pyr from '../containers/Pyr';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       />
       
       <HomePage></HomePage>
+      <Pyr></Pyr>
     </div>
   );
 }

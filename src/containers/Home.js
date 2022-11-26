@@ -1,5 +1,6 @@
 import '../assets/css/Home.css'
 import Carrousel from '../components/Carrousel'
+import Accordion from '../components/Acordion'
 
 
 const Home = ()=>{
@@ -17,6 +18,8 @@ const Home = ()=>{
         </div>
     )
 }
+
+
 
 
 

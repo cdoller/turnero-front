@@ -1,6 +1,7 @@
 import Home from './Home';
 import Productos from './Productos';
-import Acordeon from '../components/Acordeon';
+import Acordion from '../components/Acordion';
+
 
 
 const HomePage = ()=>{
@@ -10,8 +11,8 @@ const HomePage = ()=>{
         <>
             <Home></Home>
             <Productos></Productos>
-            <Acordeon></Acordeon>
-        </>
+           
+                   </>
     )
 }
 
