@@ -1,8 +1,12 @@
 import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import InicioPic1 from '../assets/statics/barbijo.jpg';
-import InicioPic2 from '../assets/statics/esteto.jpg';
-import InicioPic3 from '../assets/statics/hojitas.jpg'; 
+//import InicioPic1 from '../assets/statics/barbijo.jpg';
+//import InicioPic2 from '../assets/statics/esteto.jpg';
+//import InicioPic3 from '../assets/statics/hojitas.jpg'; 
+import InicioPic1 from '../assets/statics/kine.jpg';
+import InicioPic2 from '../assets/statics/medicos.jpg';
+import InicioPic3 from '../assets/statics/kine.jpg';
+
 
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);

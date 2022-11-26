@@ -2,18 +2,19 @@ import logo from '../logo.svg';
 import HomePage from '../containers/HomePage';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Pyr from '../containers/Pyr';
-import Contact2 from '../containers/Contact2';
+import Contacto from '../containers/Contacto';
+import Header from '../components/Header';
 import Info from '../containers/Info';
 
 
 function App() {
   return (
     <div className="App">
-
+      {/* <Header></Header> */}
       <HomePage></HomePage>
       <Info></Info>
       <Pyr></Pyr>
-      <Contact2></Contact2>
+      <Contacto></Contacto>
 
     </div>
   );

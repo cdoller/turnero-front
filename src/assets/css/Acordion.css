@@ -1,23 +1,30 @@
 
 
 .ContenedorAcordeon{
-         width:90%;
-         max-width: 700px;
-       background-color: lightskyblue;
-         padding: 20px;
-        }
+        width:65%;
+        max-width: 1200px;
+        padding: 20px;
+        background-color: white;
+        border: 1px solid #E3E3E3;
+      }
 
-/*.Accordion.Item eventKey="1"{
-  background-color: aqua;
-  height: 100vh;
-  background-image: url(../public/logo192.png);
-  background-repeat: no-repeat;
-  background-position: right;
-  display: flex;
-  align-items: center;
-}*/
+.ContenedorAcordeon h2{
+  margin-top: 0px;
+  padding: 20px;
+}
 
+.HeaderAcordeon{
+        margin-top: 50px;
+    }
 
+.acordeon-texto{
+  color: #333;
+}
+
+.AcordeonItem{
+  border-top: none;
+  border-bottom: none;
+}
 
 
 

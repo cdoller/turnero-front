@@ -1,0 +1,10 @@
+.seccion-contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+h2{
+    margin-top: 100px;
+}
