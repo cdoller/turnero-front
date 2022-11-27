@@ -1,0 +1,13 @@
+.navbar-inicio {
+  background-color: rgba(68, 68, 68, 0.194);
+  border-bottom: 3px solid blue;
+}
+.navbar-inicio .botones-navbar {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.navbar-inicio .button-navbar {
+  background-color: aqua;
+  margin-left: 20px;
+}

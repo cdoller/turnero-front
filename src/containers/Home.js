@@ -14,7 +14,7 @@ const Home = ()=>{
 
     return (
 
-        <div className= 'Home' >
+        <div className= 'Home position-relative' >
         <NavbarBootstrap></NavbarBootstrap>
         {/*<Navbar handleClick={handleClick}/>*/ }     
         <Carrousel ></Carrousel>
