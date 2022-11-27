@@ -2,8 +2,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../statics/fondoAcordeon.png);
-    background-repeat: no-repeat;
-    background-position: right;
+    *background-image: url(../statics/preguntas.webp);
+    *background-repeat: no-repeat;
+    *background-position: right;
     height: 100vh;
+    width: 100vw;
 }

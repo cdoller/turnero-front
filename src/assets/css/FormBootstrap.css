@@ -8,14 +8,33 @@
 .mensajeCorrecto h4, .mensajeError h4{
     margin: 0;
     padding-left: 10px;
+    font-size: 15px;
 }
 
 .mensajeCorrecto .iconoCheck{
     color: green;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .mensajeError .iconoWrong{
     color: red;
-    font-size: 30px;
+    font-size: 20px;
+}
+
+.formcontainer{
+    width: 40vw;
+}
+
+.form-label{
+    font-weight: 600;
+}
+
+.boton-formulario{
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 10px 40px;
+    box-shadow: 5px 5px 10px rgb(126, 126, 126);
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
 }

@@ -17,7 +17,7 @@ const FormBootstrap = (props)=>{
         <>
         {cargando
                 ?   <Loader></Loader>
-                :   <Form className="container formcontainer" onSubmit={props.handleSubmit}>
+                :   <Form className="formcontainer position-relative zindex-modal" onSubmit={props.handleSubmit}>
                         <Form.Group className="mb-3" controlId="ControlNombre">
                             <Form.Label>Nombre</Form.Label>
                             <Form.Control value={user.nombre} onChange={props.handleChange} name="nombre" type="text" placeholder="Juan Perez" />
@@ -38,20 +38,20 @@ const FormBootstrap = (props)=>{
                             <Form.Control value={user.mensaje} onChange={props.handleChange} name="mensaje" as="textarea" rows={3 } placeholder="Hola! estoy interesado en su software..."/>
                         </Form.Group>
 
-                        <Button className="botonaso" variant="primary" disabled={disabled} type="submit">
+                        <Button className="boton-formulario w-100" variant="primary" disabled={disabled} type="submit">
                             Enviar
                         </Button>
 
                         {sucess && 
                             <div className='mensajeCorrecto'>
                                 <FaCheckCircle className='iconoCheck'/>
-                                <h4 className=''>Mensaje enviado!</h4>
+                                <h4 className='mensaje-formulario'>Mensaje enviado!</h4>
                             </div>
                         }
                         {error && 
                         <div className='mensajeError'>
                             <FaTimesCircle className='iconoWrong'/>
-                            <h4 className=''>Error verifique datos</h4>
+                            <h4 className='mensaje-formulario'>Error, verifique los datos ingresados</h4>
                         </div>
                         }
                     </Form>
