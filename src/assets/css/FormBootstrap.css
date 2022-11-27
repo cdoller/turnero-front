@@ -1,0 +1,21 @@
+.mensajeCorrecto, .mensajeError{
+    display: flex;
+    justify-content: center;    
+    margin-top: 20px;
+    align-items: center;
+}
+
+.mensajeCorrecto h4, .mensajeError h4{
+    margin: 0;
+    padding-left: 10px;
+}
+
+.mensajeCorrecto .iconoCheck{
+    color: green;
+    font-size: 30px;
+}
+
+.mensajeError .iconoWrong{
+    color: red;
+    font-size: 30px;
+}
