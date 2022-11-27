@@ -1,13 +1,8 @@
-import Form from "../components/Form";
 import FormBootstrap from "../components/FormBootstrap";
 import React, { useState } from "react";
 import axios from "axios";
 import "../assets/css/Contacto.css";
-
-//import {Suspense, lazy} from 'react';
-//const Loading = lazy (()=>import('../assets/statics/Loading.gif'));
-
-
+import Contactanos from '../assets/statics/contactanos.webp';
 
 
 const Contacto = ()=>{
@@ -47,9 +42,11 @@ const Contacto = ()=>{
     }
 
     return(
-        <div>
-            <h2>Contacto</h2>
-            <div className="seccion-contacto">
+        <div className="seccion-contacto position-relative">
+            <div class="backgroundBox position-absolute end-0 zindex-dropdown"></div>
+            <div>
+                <h4 className="subtitulo-formulario">Si tenes alguna consulta o si deseas ver una demo</h4>
+                <h2 className="titulo-formulario">Dejanos tu mensaje</h2>
                 <FormBootstrap 
                     user={user} 
                     handleChange={handleChange} 
@@ -59,6 +56,8 @@ const Contacto = ()=>{
                     cargando={cargando}
                 />
             </div>
+            <img src={Contactanos} alt='Imagen de contactanos' className="imagen-formulario position-relative zindex-modal"/>
+            
         </div>
     )
 }

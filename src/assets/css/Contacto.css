@@ -1,10 +1,35 @@
 .seccion-contacto{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    height: 70vh;
+    height: 100vh;
+    background-color: #F2F4F1;
+    box-sizing: border-box;
 }
 
-h2{
-    margin-top: 100px;
+.imagen-formulario{
+    height: 50vh;
+}
+
+.backgroundBox {
+    width: 30%;
+    height: 100%;
+    background-color: #DCE1DA;
+}
+
+.titulo-formulario{
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 35px;
+}
+
+.subtitulo-formulario{
+    font-size: 16px;
+}
+
+.form-control{
+    border-color: rgb(77, 77, 77);
 }
