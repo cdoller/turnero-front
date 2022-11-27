@@ -1,6 +1,5 @@
 import '../assets/css/Home.css'
 import Carrousel from '../components/Carrousel'
-import Navbar from '../components/Navbar'
 import { useState, useEffect } from 'react'
 import NavbarBootstrap from '../components/NavbarBootstrap'
 

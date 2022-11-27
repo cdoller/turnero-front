@@ -6,11 +6,11 @@
     align-items: flex-start;
     text-align: left;
 }
-/*
-.container{
+
+.container-style-welcome{
     padding: 20%;
 }
-*/
+
 .row{
     margin: 50px;
     text-align: left;

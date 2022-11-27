@@ -6,28 +6,27 @@ import imgTurnero from '../assets/statics/logoTurnero.png';
 import '../assets/css/navbarBootstrap.css';
 
 
-const NavBar = () => {
+const NavBar = ({handleClick}) => {
     return(
         <>     
 
-            <Navbar className="navbar-inicio position-absolute zindex-toast" fixed="top" expand="lg">
+            <Navbar className="navbar-inicio position-absolute zindex-toast" fixed="top" sticky="top" expand="lg">
             <Container>
                 <Navbar.Brand href="#home">
                 <img src={imgTurnero} 
                 className='imgNav'
                 href="#Home" 
-                width="200px" 
-                height="200px" 
+                height="60px" 
                 alt='imagenTurneo'/>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto botones-navbar">
-                    <Nav.Link className="button-navbar" href="#link">Home</Nav.Link>
-                    <Nav.Link className="button-navbar" href="#link">Producto</Nav.Link>
-                    <Nav.Link className="button-navbar" href="#link">Servicios</Nav.Link>
-                    <Nav.Link className="button-navbar" href="#link">Preguntas</Nav.Link>
-                    <Nav.Link className="button-navbar" href="#link">Contacto</Nav.Link>
+                    <Nav.Link className="button-navbar" onClick={()=>handleClick}>Home</Nav.Link>
+                    <Nav.Link className="button-navbar" onClick={()=>handleClick}>Producto</Nav.Link>
+                    <Nav.Link className="button-navbar" onClick={()=>handleClick}>Servicios</Nav.Link>
+                    <Nav.Link className="button-navbar" onClick={()=>handleClick}>Preguntas</Nav.Link>
+                    <Nav.Link className="button-navbar" onClick={()=>handleClick}>Contacto</Nav.Link>
                 </Nav>
                 </Navbar.Collapse>
             </Container>

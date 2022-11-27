@@ -3,18 +3,18 @@ import '../assets/css/Welcome.css';
 
 const Welcome = () => {
     return (
-        
-        <div className="container">
-            <div className="row">
-                <h1 className="col-8">Bienvenidos</h1>
+            
+            <div className="container container-style-welcome">
+                <div className="row">
+                    <h1 className="col-8">Bienvenidos</h1>
+                </div>
+                <div className="row">
+                    <p className="col-3">Sed ut perspiciatis unde omnis iste natus error sit volptatem accusantium doloremque.</p>
+                </div>
+                <div className="row">
+                    <button className="col-2 btn btn-primary">Read more</button> 
+                </div>            
             </div>
-            <div className="row">
-                <p className="col-3">Sed ut perspiciatis unde omnis iste natus error sit volptatem accusantium doloremque.</p>
-            </div>
-            <div className="row">
-                <button className="col-2 btn btn-primary">Read more</button> 
-            </div>            
-        </div>
         
     )
 }
