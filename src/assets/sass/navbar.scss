@@ -2,60 +2,47 @@
 @import './variables/font';
 @import './mixins/animaciones';
 
-
+/*
 .navbar{
     width:100vw;
     margin: 0px;
     padding: 0px;
     box-sizing: content-box;
     
-    .navbar-collapse{
+    .navbar-collapse {
         display: flex;
-        justify-content:space-between;
-       
-    }
+        justify-content: space-between;
+    
 
     .container{
         box-sizing: content-box;
-        background-color: bisque;        
-        width:100vw;
-        align-items: flex-start;
+        background-color: bisque;
         margin: 0px;
         padding: 0px;
     }
 
     .me-auto{
         background-color: aquamarine;
-        justify-content: right;
-        
     }
 
     .nav-link{
         display: flex;
         justify-content: space-between;
-        background-color: yellow;
-        
+        background-color: yellow;        
         margin: 30px;
         padding: 20px; 
+        
+    }   
+    .aLink{
+        padding: 8px;
+        align-items: center;
+        justify-content: center;
         &:hover {
             border-bottom: 3px salmon solid;
             font-weight: bold;
             color: $seconday-color;
             }
-    }   
-
-    .navbar-toggler{
-        margin: auto;
-        padding: 20px;
-
-    }
-
-    .aLink{
-        padding: 8px;
-        align-items: center;
-        justify-content: center;
-    }
-    
-
+        }
 }
 
+}*/

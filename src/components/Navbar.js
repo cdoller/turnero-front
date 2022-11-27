@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import '../assets/css/navbar.css';
 import imgTurnero from '../assets/statics/logoTurnero.png'
 
-function NavRB() {
+const NavRB = ({handleClick}) => {
   return (
     <Navbar  expand="lg">
       <Container>
@@ -19,11 +19,11 @@ function NavRB() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link className='aLink' href="#link">Productos</Nav.Link>
-            <Nav.Link className='aLink' href="#link">Servicios</Nav.Link>
-            <Nav.Link className='aLink' href="#link">Home</Nav.Link>
-            <Nav.Link className='aLink' href="#link">Quienes somos</Nav.Link>
-            <Nav.Link className='aLink' href="#link">Contacto</Nav.Link>
+            <Nav.Link className='aLink' onClick={()=>handleClick}>Productos</Nav.Link>
+            <Nav.Link className='aLink' onClick={()=>handleClick}>Servicios</Nav.Link>
+            <Nav.Link className='aLink' onClick={()=>handleClick}>Home</Nav.Link>
+            <Nav.Link className='aLink' onClick={()=>handleClick}>Quienes somos</Nav.Link>
+            <Nav.Link className='aLink' onClick={()=>handleClick}>Contacto</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
