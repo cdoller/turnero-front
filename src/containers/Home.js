@@ -1,13 +1,12 @@
 import '../assets/css/Home.css'
 import Carrousel from '../components/Carrousel'
-import Header from '../components/Header'
-
+import Navbar from '../components/Navbar'
 
 const Home = ()=>{
 
     return (
         <div className= 'Home' >
-        <Header></Header>        
+        <Navbar></Navbar>      
         <Carrousel ></Carrousel>
         </div>
     )

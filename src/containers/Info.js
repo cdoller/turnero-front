@@ -2,11 +2,12 @@ import React from "react";
 import { Row } from "react-bootstrap";
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
-import '../assets/css/Info.css'
+import '../assets/css/Info.css';
 
 const Info = () =>{
 
     return(
+        <>
         <section className='Info'>
             <Container fluid className='Container'>
                 <Row fluid className='Row'>
@@ -25,6 +26,7 @@ const Info = () =>{
                           
             </Container>
         </section>
+        </>
         
     )
 }
