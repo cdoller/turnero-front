@@ -1,0 +1,29 @@
+.Welcome{
+    margin: 80px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.container-style-welcome{
+    padding: 20%;
+}
+
+.row-welcome{
+    margin: 50px;
+    text-align: left;
+}
+
+.button-welcome{
+    width: 25%;
+    background-color: red;
+    border-color: red;
+    &:hover {
+        background-color: greenyellow;
+        border-color: greenyellow;
+        box-shadow: rgb(42, 42, 42) 0px 0px 5px 2px;
+    }
+        
+}

@@ -19,9 +19,9 @@ const NavBar = ({handleClick}) => {
                 height="60px" 
                 alt='imagenTurneo'/>
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Toggle className="hamburguesa-nav" aria-controls="basic-navbar-nav"/>
                 <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="me-auto botones-navbar">
+                <Nav className="me-auto contenedor-navbar">
                     <Nav.Link className="button-navbar" onClick={()=>handleClick}>Home</Nav.Link>
                     <Nav.Link className="button-navbar" onClick={()=>handleClick}>Producto</Nav.Link>
                     <Nav.Link className="button-navbar" onClick={()=>handleClick}>Servicios</Nav.Link>

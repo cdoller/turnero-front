@@ -1,16 +1,32 @@
 .navbar-inicio{
     background-color: rgba(68, 68, 68, 0.194);
-    border-bottom: 3px solid blue;
+    border-bottom: 2px solid rgb(22, 22, 22);
 
-    .botones-navbar{
+    .contenedor-navbar{
     width: 100%;
     display: flex;
     justify-content:flex-end;
+    align-items: flex-end;
     }
 
     .button-navbar{
-    background-color: aqua;
-    margin-left: 20px; 
+    margin-left: 20px;
+    padding: 5px 10px;
+    &:hover {
+        box-shadow:rgb(42, 42, 42) 0px 0px 5px 2px;
+        border-radius: 5px;
+        border-bottom: 3px rgb(42, 42, 42) solid;
+        font-weight: bold
+        } 
     }
+
+    .hamburguesa-nav{
+    background-color: rgba(22, 22, 22, 0.271);
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 2px;
+    &:hover {
+        box-shadow: rgb(42, 42, 42) 0px 0px 5px 2px;
+        }
+    }
+
 }
 
