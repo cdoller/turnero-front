@@ -1,19 +1,16 @@
-.styleCarrousel{
-    width: 100vw;
-    height: auto;
-    box-sizing: border-box;
-    position: relative;
+.styleCarrousel {
+  width: 100vw;
+  height: auto;
+  box-sizing: border-box;
+  position: relative;
 }
-
-.styleItem{
-    object-fit:'contain';
+.styleCarrousel .styleItem {
+  object-fit: "contain";
 }
-
-.imagenesCarousel{
-    object-fit: cover;
-    max-block-size: 100vh;
-
+.styleCarrousel .imagenesCarousel {
+  object-fit: cover;
+  max-block-size: 100vh;
 }
-.textoCarousel{
-    color: blue;
+.styleCarrousel .textoCarousel {
+  color: blue;
 }

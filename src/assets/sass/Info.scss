@@ -1,0 +1,36 @@
+.Info{
+    align-items: flex-start;
+    background-color: #ffffff;
+
+    .container-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100vw;
+    }
+    
+    .Row{
+        width: 100vw;
+        height: 80vh;
+    }
+    .Col1{
+        background-color: orangered;
+        max-width: 30px;
+        margin-top: 100px;
+        margin-bottom: 200px;
+    }
+    .Col3{
+        text-align: initial;
+        padding: 20px;
+    }
+    h2{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .TitleColor{
+        color: orange;
+    }
+    p{
+        text-align:left;
+    }
+}
+
