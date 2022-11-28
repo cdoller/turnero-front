@@ -1,0 +1,78 @@
+@import './variables/colores';
+@import './variables/font';
+
+.carrousel-producto{
+    width: 75vw;
+    height: 70vh;
+    *background-color: $light-primary;
+    .carousel-caption{
+        left: 60%;
+        right: 0;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon{
+            background-color: $primary-text;
+            box-shadow: rgb(0, 0, 0) 0px 0px 0px 2px;
+            border-radius: 50%;
+            width: 2.5rem;
+            height: 2.5rem;
+            &:hover {
+                box-shadow: rgb(42, 42, 42) 0px 0px 5px 2px;
+                }
+    }
+    img{
+        height: 70vh;
+        object-fit: cover;
+    }
+    .carousel-indicators button{
+        background-color: $accent-color;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .carrousel-producto-item{
+        width: 100%;
+        height: 100%;
+        background-color: aqua;
+        .carrousel-producto-item-text{
+            background-color: $accent-color;
+            color: $text-icons;
+            width: 40%;
+            height: 45%;
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            flex-direction: column;
+            h3{
+                font-weight: 600;
+                margin: 20px 0px;
+                color: $primary-text;
+            }
+            .carrousel-producto-detalles-text{
+                color: $primary-text;
+                display: flex;
+                align-items: center;
+                .box-icon{
+                    width: 100px;
+                    height: 100px;
+                    box-sizing: border-box;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                span{
+                    font-size: 18px;
+                    text-align: left;
+                    margin: 0px 5px;
+                    width: 80%;
+                }
+            }
+        }
+        .carrousel-producto-icons{
+            font-size: 50px;
+            padding: 5px;
+            color: $primary-text;
+        }
+    }
+}

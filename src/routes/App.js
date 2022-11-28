@@ -2,6 +2,7 @@ import Home from '../containers/Home';
 import Pyr from '../containers/Pyr';
 import Contacto from '../containers/Contacto';
 import Info from '../containers/Info';
+import Producto from '../containers/Producto';
 import '../assets/css/App.css'
 
 
@@ -11,7 +12,7 @@ function App() {
       {/* <Header></Header> */}
       <Home></Home>
       <Info></Info>
-      {/* <OtraSeccion></OtraSeccion> */}
+      <Producto></Producto>
       <Pyr></Pyr>
       <Contacto></Contacto>
       {/* <Footer></Footer> */}

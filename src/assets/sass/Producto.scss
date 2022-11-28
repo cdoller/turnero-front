@@ -1,0 +1,12 @@
+@import './variables/colores';
+@import './variables/font';
+
+.contenedor-seccion-producto{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: $light-primary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

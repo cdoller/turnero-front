@@ -1,0 +1,75 @@
+.carrousel-producto {
+  width: 75vw;
+  height: 70vh;
+  *background-color: #B2DFDB;
+}
+.carrousel-producto .carousel-caption {
+  left: 60%;
+  right: 0;
+}
+.carrousel-producto .carousel-control-next-icon, .carrousel-producto .carousel-control-prev-icon {
+  background-color: #212121;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 2px;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.carrousel-producto .carousel-control-next-icon:hover, .carrousel-producto .carousel-control-prev-icon:hover {
+  box-shadow: rgb(42, 42, 42) 0px 0px 5px 2px;
+}
+.carrousel-producto img {
+  height: 70vh;
+  object-fit: cover;
+}
+.carrousel-producto .carousel-indicators button {
+  background-color: #FF9600;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.carrousel-producto .carrousel-producto-item {
+  width: 100%;
+  height: 100%;
+  background-color: aqua;
+}
+.carrousel-producto .carrousel-producto-item .carrousel-producto-item-text {
+  background-color: #FF9600;
+  color: white;
+  width: 40%;
+  height: 45%;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.carrousel-producto .carrousel-producto-item .carrousel-producto-item-text h3 {
+  font-weight: 600;
+  margin: 20px 0px;
+  color: #212121;
+}
+.carrousel-producto .carrousel-producto-item .carrousel-producto-item-text .carrousel-producto-detalles-text {
+  color: #212121;
+  display: flex;
+  align-items: center;
+}
+.carrousel-producto .carrousel-producto-item .carrousel-producto-item-text .carrousel-producto-detalles-text .box-icon {
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carrousel-producto .carrousel-producto-item .carrousel-producto-item-text .carrousel-producto-detalles-text span {
+  font-size: 18px;
+  text-align: left;
+  margin: 0px 5px;
+  width: 80%;
+}
+.carrousel-producto .carrousel-producto-item .carrousel-producto-icons {
+  font-size: 50px;
+  padding: 5px;
+  color: #212121;
+}

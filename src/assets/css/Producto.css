@@ -1,0 +1,9 @@
+.contenedor-seccion-producto {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #B2DFDB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
