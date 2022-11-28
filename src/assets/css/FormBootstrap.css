@@ -38,3 +38,22 @@
     font-size: 20px;
     letter-spacing: 1px;
 }
+
+.formcontainer{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px){
+    .formcontainer{
+        width: 80vw;
+    }
+}
+
+@media (max-width: 425px){
+    .formcontainer{
+        height: 60vh;
+    }
+}
