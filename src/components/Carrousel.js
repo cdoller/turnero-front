@@ -9,7 +9,7 @@ const Carrousel = (props)=>{
     // hacer deconstruccion de props
 
     return (
-        <Carousel className='styleCarrousel position-relative'>
+        <Carousel className='styleCarrousel position-relativecode '>
             <Carousel.Item className='itemCarousel'>
                 <img
                 height={900}
