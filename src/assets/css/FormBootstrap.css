@@ -46,13 +46,13 @@
     justify-content: space-between;
 }
 
-@media (max-width: 768px){
+@media screen and (max-width: 768px){
     .formcontainer{
         width: 80vw;
     }
 }
 
-@media (max-width: 425px){
+@media screen and(max-width: 425px){
     .formcontainer{
         height: 60vh;
     }

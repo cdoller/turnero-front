@@ -24,7 +24,7 @@ const CarrouselProducto = ()=>{
                   <div className='box-icon'>
                     <FaCalendarAlt className='carrousel-producto-icons' />
                   </div>
-                  <span>Agilizá tu agenda cubriendo huecos. Visualizá, crea y administrá múltiples agendas desde un mismo lugar.</span>
+                  <span>Agiliza tu agenda cubriendo huecos. Visualiza, crea y administra múltiples agendas desde un mismo lugar.</span>
                 </div>
 
                 <div className='carrousel-producto-detalles-text'>
@@ -38,7 +38,7 @@ const CarrouselProducto = ()=>{
                   <div className='box-icon'>
                     <FaWhatsapp className='carrousel-producto-icons' />
                   </div>
-                  <span>Reducí el ausentismo gracias a los recordatorios automaticos.</span>
+                  <span>Reduce el ausentismo gracias a los recordatorios automaticos.</span>
                 </div>
                 
               </Carousel.Caption>
@@ -57,7 +57,7 @@ const CarrouselProducto = ()=>{
                   <div className='box-icon'>
                     <FaCalendarAlt className='carrousel-producto-icons' />
                   </div>
-                  <span>Agilizá tu agenda cubriendo huecos. Visualizá, crea y administrá múltiples agendas desde un mismo lugar.</span>
+                  <span>Agiliza tu agenda cubriendo huecos. Visualiza, crea y administra múltiples agendas desde un mismo lugar.</span>
                 </div>
 
                 <div className='carrousel-producto-detalles-text'>
@@ -71,7 +71,7 @@ const CarrouselProducto = ()=>{
                   <div className='box-icon'>
                     <FaWhatsapp className='carrousel-producto-icons' />
                   </div>
-                  <span>Reducí el ausentismo gracias a los recordatorios automaticos.</span>
+                  <span>Reduce el ausentismo gracias a los recordatorios automaticos.</span>
                 </div>
 
               </Carousel.Caption>
