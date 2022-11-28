@@ -1,0 +1,28 @@
+.navbar-inicio {
+  background-color: rgba(68, 68, 68, 0.194);
+  border-bottom: 2px solid #00796B;
+  color: #212121;
+}
+.navbar-inicio .contenedor-navbar {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.navbar-inicio .button-navbar {
+  margin-left: 20px;
+  padding: 5px 10px;
+}
+.navbar-inicio .button-navbar:hover {
+  box-shadow: rgb(42, 42, 42) 0px 0px 5px 2px;
+  border-radius: 5px;
+  border-bottom: 3px rgb(42, 42, 42) solid;
+  font-weight: bold;
+}
+.navbar-inicio .hamburguesa-nav {
+  background-color: rgba(22, 22, 22, 0.271);
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 2px;
+}
+.navbar-inicio .hamburguesa-nav:hover {
+  box-shadow: rgb(42, 42, 42) 0px 0px 5px 2px;
+}
