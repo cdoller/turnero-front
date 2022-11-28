@@ -1,6 +1,10 @@
+@import './variables/colores';
+@import './variables/font';
+
 .navbar-inicio{
     background-color: rgba(68, 68, 68, 0.194);
-    border-bottom: 2px solid rgb(22, 22, 22);
+    border-bottom: 2px solid $dark-primary;
+    color: $primary-text;
 
     .contenedor-navbar{
     width: 100%;

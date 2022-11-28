@@ -1,6 +1,7 @@
 .navbar-inicio {
   background-color: rgba(68, 68, 68, 0.194);
-  border-bottom: 2px solid rgb(22, 22, 22);
+  border-bottom: 2px solid #00796B;
+  color: #212121;
 }
 .navbar-inicio .contenedor-navbar {
   width: 100%;
