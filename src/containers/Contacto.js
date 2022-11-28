@@ -43,10 +43,15 @@ const Contacto = ()=>{
 
     return(
         <div className="seccion-contacto position-relative">
-            <div class="backgroundBox position-absolute end-0 zindex-dropdown"></div>
-            <div>
-                <h4 className="subtitulo-formulario">Si tenes alguna consulta o si deseas ver una demo</h4>
-                <h2 className="titulo-formulario">Dejanos tu mensaje</h2>
+            <div className="backgroundBox position-absolute end-0 zindex-dropdown"></div>
+            <div className="contenedor-formulario">
+                <div className="header-formulario">
+                    <div className="textos-formulario">
+                        <h4 className="subtitulo-formulario">Si tenes alguna consulta o si deseas ver una demo</h4>
+                        <h2 className="titulo-formulario">Dejanos tu mensaje</h2>
+                    </div>
+                    <img src={Contactanos} alt='Imagen de contactanos' className="imagen-formulario-tablet position-relative zindex-modal"/>
+                </div>
                 <FormBootstrap 
                     user={user} 
                     handleChange={handleChange} 
