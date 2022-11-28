@@ -1,10 +1,8 @@
 @import './variables/colores';
-@import './variables/font';
 
 .navbar-inicio{
-    background-color: rgba(68, 68, 68, 0.194);
-    border-bottom: 2px solid $dark-primary;
-    color: $primary-text;
+    background-color: $shadow-color;
+    border-bottom: 2px $divider-color solid ;
 
     .contenedor-navbar{
     width: 100%;
@@ -16,10 +14,11 @@
     .button-navbar{
     margin-left: 20px;
     padding: 5px 10px;
+    color: $primary-text-color;
     &:hover {
-        box-shadow:rgb(42, 42, 42) 0px 0px 5px 2px;
+        box-shadow:$primary-text-color 0px 0px 5px 2px;
         border-radius: 5px;
-        border-bottom: 3px rgb(42, 42, 42) solid;
+        border-bottom: 3px $primary-text-color solid;
         font-weight: bold
         } 
     }
@@ -29,8 +28,10 @@
     box-shadow: rgb(0, 0, 0) 0px 0px 0px 2px;
     &:hover {
         box-shadow: rgb(42, 42, 42) 0px 0px 5px 2px;
-        }
+        };
+    &:active {
+        background-color: $secondary-text-color;
     }
-
 }
 
+}
