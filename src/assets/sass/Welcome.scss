@@ -22,13 +22,10 @@
 .button-welcome{
     width: 25%;
     background-color: $ok-primary-color;
-    border-color: $ok-primary-color;
+    border-color: $ok-primary-color;  
+    --bs-btn-active-bg: #009688;
+    --bs-btn-active-border-color: #009688;
     &:hover {
-        background-color: $dark-primary-color;
-        border-color: $dark-primary-color;
-        box-shadow: rgb(42, 42, 42) 0px 0px 5px 2px;
-    }
-    &:active {
         background-color: $dark-primary-color;
         border-color: $dark-primary-color;
         box-shadow: rgb(42, 42, 42) 0px 0px 5px 2px;

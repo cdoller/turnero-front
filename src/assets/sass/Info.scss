@@ -1,3 +1,5 @@
+@import './variables/colores';
+
 .Info{
     align-items: flex-start;
     background-color: #ffffff;
@@ -9,28 +11,28 @@
         width: 100vw;
     }
     
-    .Row{
+    .rowInfo{
         width: 100vw;
         height: 80vh;
     }
-    .Col1{
-        background-color: orangered;
+    .columnaColor{
+        background-color: $ok-primary-color;
         max-width: 30px;
-        margin-top: 100px;
         margin-bottom: 200px;
     }
-    .Col3{
+    .columnaTexto{
         text-align: initial;
         padding: 20px;
     }
     h2{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
-    .TitleColor{
-        color: orange;
+    .segundoTitle{
+        color: $dark-primary-color;
     }
-    p{
+    .pInfo{
         text-align:left;
+        color: $ok-primary-color
     }
 }
 

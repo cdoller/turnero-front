@@ -2,7 +2,7 @@
 
 .navbar-inicio{
     background-color: $shadow-color;
-    border-bottom: 2px $divider-color solid ;
+    border-bottom: 2px $dark-primary-color solid ;
 
     .contenedor-navbar{
     width: 100%;
@@ -14,23 +14,22 @@
     .button-navbar{
     margin-left: 20px;
     padding: 5px 10px;
-    color: $primary-text-color;
+    color: $text-icons-color;
     &:hover {
-        box-shadow:$primary-text-color 0px 0px 5px 2px;
+        box-shadow:$secondary-text-color 0px 0px 5px 2px;
         border-radius: 5px;
-        border-bottom: 3px $primary-text-color solid;
         font-weight: bold
         } 
     }
 
     .hamburguesa-nav{
-    background-color: rgba(22, 22, 22, 0.271);
-    box-shadow: rgb(0, 0, 0) 0px 0px 0px 2px;
+    background-color: $dark-shadow-color;
+    box-shadow: $shadow-color 0px 0px 0px 2px;
     &:hover {
         box-shadow: rgb(42, 42, 42) 0px 0px 5px 2px;
         };
     &:active {
-        background-color: $secondary-text-color;
+        background-color: $shadow-color;
     }
 }
 
