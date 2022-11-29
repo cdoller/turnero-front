@@ -1,10 +1,11 @@
 import Accordion from 'react-bootstrap/Accordion';
 import "../assets/css/Acordion.css"
 
+
 function Acordion() {
   return (
     <Accordion defaultActiveKey="0" flush className='ContenedorAcordeon position-relative zindex-modal' >
-      <h2>Preguntas frecuentes</h2>
+      <h2 className="tituloAcordion">Preguntas frecuentes</h2>
       <Accordion.Item eventKey="0" className='AcordeonItem'>
         <Accordion.Header className='HeaderAcordeon'>Pregunta #1?</Accordion.Header>
         <Accordion.Body className="acordeon-texto">

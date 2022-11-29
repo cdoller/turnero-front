@@ -1,73 +1,61 @@
-
-
-.ContenedorAcordeon{
-        width:65%;
-        max-width: 1200px;
-        padding: 20px;
-        background-color: white;
-        border: 1px solid #E3E3E3;
-        margin-left: 400px;
-      }
-
-.ContenedorAcordeon h2{
+.ContenedorAcordeon {
+  width: 65%;
+  max-width: 1200px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #E3E3E3;
+  margin-left: 400px;
+  box-sizing: border-box;
+  /*BOTON ACORDEON*/
+  /*HEADER ACORDION ITEM*/
+}
+.ContenedorAcordeon h2 {
+  color: #212121;
   margin-top: 0px;
   padding: 20px;
   padding-bottom: 0px;
 }
-
-.HeaderAcordeon{
-        margin-top: 50px;
-    }
-
-.acordeon-texto{
-  color: #333;
-  background-color: rgba(239, 239, 239, 0.412);
+.ContenedorAcordeon .acordeon-texto {
+  color: #212121;
+  background-color: white;
+  padding: 30px;
+  margin: 0px 20px;
 }
-
-.AcordeonItem{
+.ContenedorAcordeon .AcordeonItem {
   border-top: none;
   border-bottom: none;
 }
-
-/*BOTON ACORDEON*/
-
-.accordion-button{
+.ContenedorAcordeon .accordion-button {
   --bs-accordion-active-bg:white;
   --bs-accordion-btn-focus-border-color:white;
   font-size: 1.5rem;
   font-weight: bold;
   text-transform: uppercase;
 }
-
-.accordion-button:focus{
+.ContenedorAcordeon .accordion-button:hover {
+  box-shadow: #757575 0px 0px 5px 2px;
+  border-radius: 5px;
+  color: #009688;
+  font-weight: bold;
+}
+.ContenedorAcordeon .accordion-button:focus {
   --bs-accordion-active-bg:white;
   --bs-accordion-btn-focus-border-color:white;
   --bs-accordion-btn-focus-box-shadow: white;
 }
-
-
-
-.accordion-button:active{
-  --bs-accordion-active-color: rgb(24, 114, 204);
+.ContenedorAcordeon .accordion-button:active {
+  --bs-accordion-active-color: #00796B;
 }
-
-/*HEADER ACORDION ITEM*/
-
-.accordion-header{
-  --bs-accordion-active-color: rgb(24, 114, 204);
+.ContenedorAcordeon .accordion-header {
+  --bs-accordion-btn-color:#757575;
+  --bs-accordion-active-color: #009688;
   font-weight: 600;
   padding-bottom: 0px;
 }
-
-.accordion-header:focus{
+.ContenedorAcordeon .accordion-header:focus {
   --bs-accordion-active-bg:white;
   padding-bottom: 0px;
 }
-
-.accordion-header:active{
-  --bs-accordion-active-color: rgb(24, 114, 204);
+.ContenedorAcordeon .accordion-header:active {
   padding-bottom: 0px;
 }
-
-
-

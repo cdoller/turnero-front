@@ -10,7 +10,5 @@
 .styleCarrousel .imagenesCarousel {
   object-fit: cover;
   max-block-size: 100vh;
-}
-.styleCarrousel .textoCarousel {
-  color: blue;
+  border-bottom: 2px #BDBDBD solid;
 }
