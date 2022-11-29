@@ -38,7 +38,7 @@
     font-size: 20px;
     letter-spacing: 1px;
     background-color: #FF9600;
-    border-color: #009688;
+    border-color: #212121;
 }
 
 .boton-formulario:hover{
@@ -48,6 +48,7 @@
 .btn.disabled, .btn:disabled, fieldset:disabled .btn{
     background-color: #adb5bd;
     background-color: #adb5bd;
+    border-color: #212121;
 }
 
 /*si hay error es porq este style no lo toma*/ 
