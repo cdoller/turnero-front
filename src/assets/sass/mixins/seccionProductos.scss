@@ -1,0 +1,5 @@
+@mixin Laptop($medida: 1024px){
+    @media screen and (max-width: $medida){
+        @content;
+    }
+}
