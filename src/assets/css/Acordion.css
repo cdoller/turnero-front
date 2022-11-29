@@ -74,6 +74,10 @@
     margin-right: 0px;
     overflow: scroll;
   }
+
+  .accordion-button{
+    font-size: 1rem;
+  }
 }
 
 

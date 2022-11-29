@@ -24,6 +24,7 @@
         height: 100vh;
         width: 100vw;
         box-sizing: border-box;
+        overflow: scroll;
     }
 
     .imagen-acordeon{
@@ -32,6 +33,7 @@
 
     .imagen-acordeon-2{
         display: block;
-        width: 100%;
+        width: auto;
+        height: 30vh;
     }
 }
