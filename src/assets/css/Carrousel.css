@@ -10,5 +10,5 @@
 .styleCarrousel .imagenesCarousel {
   object-fit: cover;
   max-block-size: 100vh;
-  border-bottom: 2px #BDBDBD solid;
+  border-bottom: 1px #BDBDBD solid;
 }

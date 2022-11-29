@@ -2,6 +2,9 @@
   width: 80vw;
   height: 85vh;
 }
+.carrousel-producto .carousel-inner {
+  border-radius: 10px;
+}
 .carrousel-producto .carousel-caption {
   left: 60%;
   right: 0;
@@ -33,6 +36,7 @@
   height: 100%;
 }
 .carrousel-producto .carrousel-producto-item .carrousel-producto-item-text {
+  border-radius: 10px 10px 10px 10px;
   background-color: #FF9600;
   color: white;
   width: 40%;

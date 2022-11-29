@@ -37,16 +37,21 @@
     font-weight: 600;
     font-size: 20px;
     letter-spacing: 1px;
-    background-color: #009688;
+    background-color: #FF9600;
     border-color: #009688;
 }
 
-   /*si hay error es porq este style no lo toma*/ 
-.boton-formulario:hover {
+.btn.disabled, .btn:disabled, fieldset:disabled .btn{
+    background-color: #adb5bd;
+    background-color: #adb5bd;
+}
+
+/*si hay error es porq este style no lo toma*/ 
+/* .boton-formulario:hover {
     background-color: #00796B;
     border-color: #00796B;
     box-shadow: rgb(42, 42, 42) 0px 0px 5px 2px;
-}
+} */
 
 .formcontainer{
     width: 40vw;

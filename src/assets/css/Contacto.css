@@ -4,7 +4,7 @@
     align-items: center;
     height: 100vh;
     width: 100vw;
-    background-color: #F2F4F1;
+    background-color: #B2DFDB;
     box-sizing: border-box;
 }
 
@@ -15,7 +15,7 @@
 .backgroundBox {
     width: 30%;
     height: 100%;
-    background-color: #DCE1DA;
+    background-color: #009688;
 }
 
 .titulo-formulario{
@@ -25,11 +25,12 @@
     font-weight: 600;
     letter-spacing: 2px;
     font-size: 35px;
+    color: #212121;
 }
 
 .subtitulo-formulario{
     font-size: 16px;
-    color: #FF9600;
+    color: #212121;
 }
 
 .form-control{

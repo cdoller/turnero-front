@@ -2,9 +2,10 @@
   width: 65%;
   max-width: 1200px;
   padding: 20px;
-  background-color: white;
-  border: 1px solid #E3E3E3;
+  background-color: #B2DFDB;
+  border: 1px solid #BDBDBD;
   margin-right: 20px;
+  border-radius: 15px;
   /*BOTON ACORDEON*/
   /*HEADER ACORDION ITEM*/
 }
@@ -12,7 +13,6 @@
   color: #212121;
   margin-top: 0px;
   padding: 10px;
-  padding-bottom: 0px;
 }
 .ContenedorAcordeon .acordeon-texto {
   color: #212121;
@@ -21,6 +21,12 @@
 .ContenedorAcordeon .AcordeonItem {
   border-top: none;
   border-bottom: none;
+}
+.ContenedorAcordeon .AcordeonItem:nth-child(2) {
+  border-radius: 10px 10px 0px 0px;
+}
+.ContenedorAcordeon .AcordeonItem:nth-child(6) {
+  border-radius: 0px 0px 10px 10px;
 }
 .ContenedorAcordeon .accordion-button {
   --bs-accordion-active-bg:white;
@@ -39,7 +45,7 @@
 }
 .ContenedorAcordeon .accordion-header {
   --bs-accordion-btn-color:#757575;
-  --bs-accordion-active-color: #009688;
+  --bs-accordion-active-color: #FF9600;
   font-weight: 600;
   padding-bottom: 0px;
 }

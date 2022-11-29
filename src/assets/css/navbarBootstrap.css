@@ -1,6 +1,6 @@
 .navbar-inicio {
-  background-color: rgba(44, 43, 43, 0.487);
-  border-bottom: 2px #00796B solid;
+  background-color: rgba(0, 121, 107, 0.3921568627);
+  border-bottom: 2px #BDBDBD solid;
 }
 .navbar-inicio .contenedor-navbar {
   width: 100%;
@@ -12,14 +12,18 @@
   margin-left: 20px;
   padding: 5px 10px;
   color: white;
+  font-weight: bold;
+  font-size: 18px;
 }
 .navbar-inicio .button-navbar:hover {
   box-shadow: #757575 0px 0px 5px 2px;
   border-radius: 5px;
   font-weight: bold;
+  background-color: #FF9600;
+  color: #212121;
 }
 .navbar-inicio .hamburguesa-nav {
-  background-color: rgba(35, 28, 28, 0.394);
+  background-color: #FF9600;
   box-shadow: rgba(44, 43, 43, 0.487) 0px 0px 0px 2px;
 }
 .navbar-inicio .hamburguesa-nav:hover {

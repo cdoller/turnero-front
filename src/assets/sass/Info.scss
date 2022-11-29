@@ -4,15 +4,16 @@
     align-items: flex-start;
     background-color: $text-icons-color;
     height: 100vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: scroll;
 
     .container-info{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        box-sizing: border-box;
         width: 100vw;
     }
     
@@ -21,7 +22,7 @@
         *height: 80vh;
     }
     .columnaColor{
-        background-color: $ok-primary-color;
+        background-color: $accent-color;
         max-width: 30px;
         *margin-bottom: 200px;
     }
@@ -33,7 +34,7 @@
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     .segundoTitle{
-        color: $dark-primary-color;
+        color: $accent-color;
         font-weight: bold;
         margin-bottom: 50px;
         letter-spacing: -1px;
@@ -53,7 +54,7 @@
     }
 
     .colorAcento{
-        color: $dark-primary-color;
+        color: $accent-color;
         font-weight: 600;
     }
 }
@@ -78,11 +79,5 @@
         }
     }
     
-}
-
-@media screen and (max-width: 375px){
-    .segundoTitle{
-        
-    }
 }
 
