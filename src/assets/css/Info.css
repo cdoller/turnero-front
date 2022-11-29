@@ -1,6 +1,11 @@
 .Info {
   align-items: flex-start;
-  background-color: #ffffff;
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: scroll;
 }
 .Info .container-info {
   display: flex;
@@ -10,12 +15,12 @@
 }
 .Info .rowInfo {
   width: 100vw;
-  height: 80vh;
+  *height: 80vh;
 }
 .Info .columnaColor {
   background-color: #009688;
   max-width: 30px;
-  margin-bottom: 200px;
+  *margin-bottom: 200px;
 }
 .Info .columnaTexto {
   text-align: initial;
@@ -26,8 +31,44 @@
 }
 .Info .segundoTitle {
   color: #00796B;
+  font-weight: bold;
+  margin-bottom: 50px;
+  letter-spacing: -1px;
+  font-size: 32px;
+}
+.Info .primerTitle {
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: 3px;
 }
 .Info .pInfo {
+  padding: 10px 0px;
+  font-family: arial;
   text-align: left;
-  color: #009688;
+  color: #212121;
+  font-size: 20px;
+}
+.Info .colorAcento {
+  color: #00796B;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 425px) {
+  .Info {
+    min-height: 100vh;
+    width: 100vw;
+  }
+  .Info .segundoTitle {
+    margin-bottom: 20px;
+    letter-spacing: 0px;
+    font-size: 25px;
+  }
+  .Info .primerTitle {
+    font-size: 32px;
+    letter-spacing: 2px;
+  }
+  .Info .pInfo {
+    padding: 5px 0px;
+    font-size: 14px;
+  }
 }

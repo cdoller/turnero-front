@@ -2,7 +2,12 @@
 
 .Info{
     align-items: flex-start;
-    background-color: #ffffff;
+    background-color: $text-icons-color;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
 
     .container-info{
         display: flex;
@@ -13,12 +18,12 @@
     
     .rowInfo{
         width: 100vw;
-        height: 80vh;
+        *height: 80vh;
     }
     .columnaColor{
         background-color: $ok-primary-color;
         max-width: 30px;
-        margin-bottom: 200px;
+        *margin-bottom: 200px;
     }
     .columnaTexto{
         text-align: initial;
@@ -29,10 +34,55 @@
     }
     .segundoTitle{
         color: $dark-primary-color;
+        font-weight: bold;
+        margin-bottom: 50px;
+        letter-spacing: -1px;
+        font-size: 32px;
+    }
+    .primerTitle{
+        font-weight: bold;
+        font-size: 40px;
+        letter-spacing: 3px;
     }
     .pInfo{
+        padding: 10px 0px;
+        font-family: arial;
         text-align:left;
-        color: $ok-primary-color
+        color: $primary-text-color;
+        font-size: 20px;
+    }
+
+    .colorAcento{
+        color: $dark-primary-color;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .Info{
+        min-height: 100vh;
+        width: 100vw;
+        
+        .segundoTitle{
+            margin-bottom: 20px;
+            letter-spacing: 0px;
+            font-size: 25px;
+        }
+        .primerTitle{
+            font-size: 32px;
+            letter-spacing: 2px;
+        }
+        .pInfo{
+            padding: 5px 0px;
+            font-size: 14px;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 375px){
+    .segundoTitle{
+        
     }
 }
 

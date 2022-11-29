@@ -32,19 +32,19 @@
     font-size: 1.5rem;
     font-weight: bold;
     text-transform: uppercase;
-    &:hover {
-        box-shadow:$secondary-text-color 0px 0px 5px 2px;
-        border-radius: 5px;
-        color: $ok-primary-color;
-        font-weight: bold
-        }
+    // &:hover {
+    //     box-shadow:$secondary-text-color 0px 0px 5px 2px;
+    //     border-radius: 5px;
+    //     color: $ok-primary-color;
+    //     font-weight: bold
+    //     }
     &:focus{
         --bs-accordion-active-bg:white;
         --bs-accordion-btn-focus-border-color:white;
-        --bs-accordion-btn-focus-box-shadow: white; 
+        --bs-accordion-btn-focus-box-shadow: white;
         } 
     &:active{
-    --bs-accordion-active-color: #00796B;
+        --bs-accordion-active-color: #00796B;
         }
     }
 
@@ -73,11 +73,13 @@
     border: 1px solid #E3E3E3;
     margin-right: 0px;
     overflow: scroll;
-    }
     
     .accordion-button{
-    font-size: 1rem;
+        font-size: 1rem;
     }
+    }
+    
+    
 }
 
 

@@ -1,5 +1,5 @@
 .navbar-inicio {
-  background-color: rgba(44, 43, 43, 0.125);
+  background-color: rgba(44, 43, 43, 0.487);
   border-bottom: 2px #00796B solid;
 }
 .navbar-inicio .contenedor-navbar {
@@ -20,11 +20,11 @@
 }
 .navbar-inicio .hamburguesa-nav {
   background-color: rgba(35, 28, 28, 0.394);
-  box-shadow: rgba(44, 43, 43, 0.125) 0px 0px 0px 2px;
+  box-shadow: rgba(44, 43, 43, 0.487) 0px 0px 0px 2px;
 }
 .navbar-inicio .hamburguesa-nav:hover {
   box-shadow: rgb(42, 42, 42) 0px 0px 5px 2px;
 }
 .navbar-inicio .hamburguesa-nav:active {
-  background-color: rgba(44, 43, 43, 0.125);
+  background-color: rgba(44, 43, 43, 0.487);
 }
