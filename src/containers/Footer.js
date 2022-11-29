@@ -6,7 +6,7 @@ const Footer = () =>{
     return(
         <>
             <footer>
-                <p>©2022 Proyecto Integrador Mundos E, todos los derechos reservados.</p>
+                <p>©2022 Proyecto Integrador Mundos E, todos los derechos reservados. </p>
                 <img src={logomundoE} alt="Logo Mundos E"/>
             </footer>
         </>

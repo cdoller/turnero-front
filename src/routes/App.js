@@ -13,7 +13,7 @@ function App() {
       <Home></Home>
       <Info></Info>
       <Producto></Producto>
-      {/* <Pyr></Pyr> */}
+      <Pyr></Pyr>
       <Contacto></Contacto>
       <Footer></Footer>
     </div>

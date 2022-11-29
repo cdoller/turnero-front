@@ -1,13 +1,11 @@
-
-
 .ContenedorAcordeon{
         width:65%;
         max-width: 1200px;
         padding: 20px;
         background-color: white;
         border: 1px solid #E3E3E3;
-        margin-left: 400px;
-      }
+        margin-right: 50px;
+}
 
 .ContenedorAcordeon h2{
   margin-top: 0px;
@@ -45,8 +43,6 @@
   --bs-accordion-btn-focus-box-shadow: white;
 }
 
-
-
 .accordion-button:active{
   --bs-accordion-active-color: rgb(24, 114, 204);
 }
@@ -67,6 +63,17 @@
 .accordion-header:active{
   --bs-accordion-active-color: rgb(24, 114, 204);
   padding-bottom: 0px;
+}
+
+@media screen and (max-width: 425px){
+  .ContenedorAcordeon{
+    width:95%;
+    padding: 0px;
+    background-color: white;
+    border: 1px solid #E3E3E3;
+    margin-right: 0px;
+    overflow: scroll;
+  }
 }
 
 
