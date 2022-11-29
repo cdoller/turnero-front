@@ -39,8 +39,7 @@ const Carrousel = (props)=>{
                 alt="Third slide"
                 />
                 <Carousel.Caption >
-                    <Welcome></Welcome>
-                               
+                    <Welcome></Welcome>               
                 </Carousel.Caption>
             </Carousel.Item>
             
