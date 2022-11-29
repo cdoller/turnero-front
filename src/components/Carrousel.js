@@ -29,7 +29,6 @@ const Carrousel = (props)=>{
                 />
                 <Carousel.Caption >
                     <Welcome></Welcome>
-                               
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
