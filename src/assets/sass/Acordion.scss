@@ -7,20 +7,18 @@
     padding: 20px;
     background-color: white;
     border: 1px solid #E3E3E3;
-    margin-left: 400px;
-    box-sizing: border-box;
+    margin-right: 50px;
     h2{ 
         color: $primary-text-color;
         margin-top: 0px;
         padding: 20px;
         padding-bottom: 0px;
     }
-        
     .acordeon-texto{
     color: $primary-text-color;
     background-color:$text-icons-color;
-    padding: 30px;
-    margin: 0px 20px;
+    // *padding: 30px;
+    // *margin: 0px 20px;
     
     }
     .AcordeonItem{
@@ -28,7 +26,6 @@
     border-bottom: none;
     }
 /*BOTON ACORDEON*/
-   
     .accordion-button{  
     --bs-accordion-active-bg:white;
     --bs-accordion-btn-focus-border-color:white;
@@ -65,10 +62,22 @@
     &:active{
     padding-bottom: 0px;
         }
-   
     }
+}
 
-   
+@media screen and (max-width: 425px){
+    .ContenedorAcordeon{
+    width:95%;
+    padding: 0px;
+    background-color: white;
+    border: 1px solid #E3E3E3;
+    margin-right: 0px;
+    overflow: scroll;
+    }
+    
+    .accordion-button{
+    font-size: 1rem;
+    }
 }
 
 
