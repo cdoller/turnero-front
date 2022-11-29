@@ -27,7 +27,7 @@ const Contacto = ()=>{
         // LOCAL http://127.0.0.1:8000/api/insertarContacto
         // PRODUCCION https://turnero-proyecto-integrador.herokuapp.com/api/insertarContacto
         axios({
-            url: "http://127.0.0.1:8000/api/insertarContacto",
+            url: "https://turnero-proyecto-integrador.herokuapp.com/api/insertarContacto",
             method: "POST",
             data: user
         }).then((response)=>{
