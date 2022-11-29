@@ -6,7 +6,7 @@ import ImagenPreguntas from "../assets/statics/preguntas.webp"
 const Pyr = ()=>{
 
     return (
-        <div className="pyr position-relative">
+        <div className="pyr position-relative" id="Seccion-Preguntas">
             <img src={ImagenPreguntas} alt='imagen de persona con dudas y consultas' className="position-absolute zindex-dropdown start-0 imagen-acordeon"/>
             <img src={ImagenPreguntas} alt='imagen de persona con dudas y consultas' className="imagen-acordeon-2"/>
             <Acordion></Acordion>  

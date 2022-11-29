@@ -5,7 +5,7 @@ import InfoComponent from "../components/InfoComponent";
 const Info = () =>{
 
     return(       
-        <section>
+        <section id="Seccion-Info">
             <InfoComponent></InfoComponent>
         </section>
     

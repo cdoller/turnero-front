@@ -4,14 +4,14 @@
   padding: 20px;
   background-color: white;
   border: 1px solid #E3E3E3;
-  margin-right: 50px;
+  margin-right: 20px;
   /*BOTON ACORDEON*/
   /*HEADER ACORDION ITEM*/
 }
 .ContenedorAcordeon h2 {
   color: #212121;
   margin-top: 0px;
-  padding: 20px;
+  padding: 10px;
   padding-bottom: 0px;
 }
 .ContenedorAcordeon .acordeon-texto {

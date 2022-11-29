@@ -42,7 +42,7 @@ const Contacto = ()=>{
     }
 
     return(
-        <div className="seccion-contacto position-relative">
+        <div className="seccion-contacto position-relative" id="Seccion-Contacto">
             <div className="backgroundBox position-absolute end-0 zindex-dropdown"></div>
             <div className="contenedor-formulario">
                 <div className="header-formulario">
