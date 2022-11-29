@@ -7,11 +7,8 @@ const Pyr = ()=>{
 
     return (
         <div className="pyr position-relative">
-            <img 
-            src={ImagenPreguntas} 
-            alt='imagen de persona con dudas y consultas' 
-            width="50%" 
-            className="position-absolute zindex-dropdown start-0 imgPyr"/>
+            <img src={ImagenPreguntas} alt='imagen de persona con dudas y consultas' className="position-absolute zindex-dropdown start-0 imagen-acordeon"/>
+            <img src={ImagenPreguntas} alt='imagen de persona con dudas y consultas' className="imagen-acordeon-2"/>
             <Acordion></Acordion>  
         </div>
     )

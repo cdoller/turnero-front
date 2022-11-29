@@ -6,8 +6,6 @@
   border: 1px solid #E3E3E3;
   margin-left: 400px;
   box-sizing: border-box;
-  /*BOTON ACORDEON*/
-  /*HEADER ACORDION ITEM*/
 }
 .ContenedorAcordeon h2 {
   color: #212121;
@@ -43,6 +41,7 @@
   --bs-accordion-btn-focus-border-color:white;
   --bs-accordion-btn-focus-box-shadow: white;
 }
+
 .ContenedorAcordeon .accordion-button:active {
   --bs-accordion-active-color: #00796B;
 }
