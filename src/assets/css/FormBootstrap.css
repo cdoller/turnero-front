@@ -1,0 +1,78 @@
+.mensajeCorrecto, .mensajeError{
+    display: flex;
+    justify-content: center;    
+    margin-top: 20px;
+    align-items: center;
+}
+
+.mensajeCorrecto h4, .mensajeError h4{
+    margin: 0;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.mensajeCorrecto .iconoCheck{
+    color: green;
+    font-size: 20px;
+}
+
+.mensajeError .iconoWrong{
+    color: red;
+    font-size: 20px;
+}
+
+.formcontainer{
+    width: 40vw;
+}
+
+.form-label{
+    font-weight: 600;
+}
+
+.boton-formulario{
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 10px 40px;
+    box-shadow: 5px 5px 10px rgb(126, 126, 126);
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
+    background-color: #FF9600;
+    border-color: #212121;
+}
+
+.boton-formulario:hover{
+    background-color: #FF9600;
+}
+
+.btn.disabled, .btn:disabled, fieldset:disabled .btn{
+    background-color: #adb5bd;
+    background-color: #adb5bd;
+    border-color: #212121;
+}
+
+/*si hay error es porq este style no lo toma*/ 
+/* .boton-formulario:hover {
+    background-color: #00796B;
+    border-color: #00796B;
+    box-shadow: rgb(42, 42, 42) 0px 0px 5px 2px;
+} */
+
+.formcontainer{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px){
+    .formcontainer{
+        width: 80vw;
+    }
+}
+
+@media screen and(max-width: 425px){
+    .formcontainer{
+        height: 60vh;
+    }
+}

@@ -1,0 +1,40 @@
+@import './variables/colores';
+
+.navbar-inicio{
+    background-color: $dark-primary-color-shadow;
+    border-bottom: 2px $divider-color solid ;
+
+    .contenedor-navbar{
+    width: 100%;
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+    }
+
+    .button-navbar{
+    margin-left: 20px;
+    padding: 5px 10px;
+    color: $text-icons-color;
+    font-weight: bold;
+    font-size: 18px;
+    &:hover {
+        box-shadow:$secondary-text-color 0px 0px 5px 2px;
+        border-radius: 5px;
+        font-weight: bold;
+        background-color: $accent-color;
+        color: $primary-text-color;
+        } 
+    }
+
+    .hamburguesa-nav{
+    background-color: $accent-color;
+    box-shadow: $shadow-color 0px 0px 0px 2px;
+    &:hover {
+        box-shadow: rgb(42, 42, 42) 0px 0px 5px 2px;
+        };
+    &:active {
+        background-color: $shadow-color;
+    }
+}
+
+}

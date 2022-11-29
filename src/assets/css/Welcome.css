@@ -1,19 +1,31 @@
-.Welcome{
-    margin: 80px;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    text-align: left;
+.Welcome {
+  margin: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
 }
 
-.row{
-    margin: 50px;
+.container-style-welcome {
+  padding: 20%;
 }
 
-button{
-    background-color: goldenrod;
-    color:aliceblue;
-    padding: 10px 20px;
-    font-weight: 500;
+.row-welcome {
+  margin: 50px;
+  text-align: left;
+  color: #212121;
+}
+
+.button-welcome {
+  width: 25%;
+  background-color: #009688;
+  border-color: #009688;
+  --bs-btn-active-bg: #009688;
+  --bs-btn-active-border-color: #009688;
+}
+.button-welcome:hover {
+  background-color: #00796B;
+  border-color: #00796B;
+  box-shadow: rgb(42, 42, 42) 0px 0px 5px 2px;
 }

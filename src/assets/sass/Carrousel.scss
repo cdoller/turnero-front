@@ -1,0 +1,19 @@
+@import './variables/colores';
+
+.styleCarrousel{
+    width: 100vw;
+    height: auto;
+    box-sizing: border-box;
+    position: relative;
+
+    .styleItem{
+    object-fit:'contain';
+    }
+
+    .imagenesCarousel{
+        object-fit: cover;
+        max-block-size: 100vh;
+        border-bottom: 1px $divider-color solid;
+    }
+}
+
