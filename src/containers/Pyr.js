@@ -2,6 +2,7 @@ import Acordion from "../components/Acordion"
 import "../assets/css/Pyr.css"
 import ImagenPreguntas from "../assets/statics/preguntas.webp"
 
+
 const Pyr = ()=>{
 
     return (

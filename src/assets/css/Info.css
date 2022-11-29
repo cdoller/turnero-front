@@ -8,26 +8,26 @@
   justify-content: space-between;
   width: 100vw;
 }
-.Info .Row {
+.Info .rowInfo {
   width: 100vw;
   height: 80vh;
 }
-.Info .Col1 {
-  background-color: orangered;
+.Info .columnaColor {
+  background-color: #009688;
   max-width: 30px;
-  margin-top: 100px;
   margin-bottom: 200px;
 }
-.Info .Col3 {
+.Info .columnaTexto {
   text-align: initial;
   padding: 20px;
 }
 .Info h2 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-.Info .TitleColor {
-  color: orange;
+.Info .segundoTitle {
+  color: #00796B;
 }
-.Info p {
+.Info .pInfo {
   text-align: left;
+  color: #009688;
 }

@@ -1,12 +1,11 @@
 import Carousel from 'react-bootstrap/Carousel';
-import InicioPic1 from '../assets/statics/barbijo.jpg';
-import InicioPic2 from '../assets/statics/esteto.jpg';
-import InicioPic3 from '../assets/statics/hojitas.jpg'; 
+import InicioPic1 from '../assets/statics/ilustraciondoc.png';
+import InicioPic2 from '../assets/statics/ilustracionequilibrio.png';
+import InicioPic3 from '../assets/statics/okequipo.png';      
 import '../assets/css/Carrousel.css';
 import Welcome from './Welcome';
 
 const Carrousel = (props)=>{
-    // hacer deconstruccion de props
 
     return (
         <Carousel className='styleCarrousel position-relativecode '>

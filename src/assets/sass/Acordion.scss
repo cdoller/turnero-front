@@ -1,0 +1,76 @@
+@import './variables/colores';
+
+
+.ContenedorAcordeon{
+    width:65%;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #E3E3E3;
+    margin-left: 400px;
+    box-sizing: border-box;
+    h2{ 
+        color: $primary-text-color;
+        margin-top: 0px;
+        padding: 20px;
+        padding-bottom: 0px;
+    }
+        
+    .acordeon-texto{
+    color: $primary-text-color;
+    background-color:$text-icons-color;
+    padding: 30px;
+    margin: 0px 20px;
+    
+    }
+    .AcordeonItem{
+    border-top: none;
+    border-bottom: none;
+    }
+/*BOTON ACORDEON*/
+   
+    .accordion-button{  
+    --bs-accordion-active-bg:white;
+    --bs-accordion-btn-focus-border-color:white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    &:hover {
+        box-shadow:$secondary-text-color 0px 0px 5px 2px;
+        border-radius: 5px;
+        color: $ok-primary-color;
+        font-weight: bold
+        }
+    &:focus{
+        --bs-accordion-active-bg:white;
+        --bs-accordion-btn-focus-border-color:white;
+        --bs-accordion-btn-focus-box-shadow: white; 
+        } 
+    &:active{
+    --bs-accordion-active-color: #00796B;
+        }
+    }
+
+/*HEADER ACORDION ITEM*/
+
+    .accordion-header{
+    --bs-accordion-btn-color:#757575;
+    --bs-accordion-active-color: #009688;
+    font-weight: 600;
+    padding-bottom: 0px;
+    &:focus{    
+    --bs-accordion-active-bg:white;
+    padding-bottom: 0px;
+        }
+    &:active{
+    padding-bottom: 0px;
+        }
+   
+    }
+
+   
+}
+
+
+
+
