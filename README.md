@@ -7,7 +7,7 @@ Accedé desde cualquier dispositivo.
 ##### - SIMPLE
 Interfaz simple e intuitiva para un fácil manejo.
 ##### - PERSONALIZADO
-El sistema tendrá tu logo, colores y un acceso con subdominio propio ej. tuempresa.turnos.app
+El sistema tendrá tu logo, colores y un acceso con subdominio propio.
 #### - LENGUAJE UTILIZADO
 Html , JavaScript, React, Sass y Css.
 #### - FUNCIONES DE LA APLICACION
