@@ -8,6 +8,7 @@ const Info = () =>{
 
     return(
         <>
+        
         <section className='Info' id="Seccion-Info">
             <Container fluid className='Container container-info'>
                 <Row fluid className='Row rowInfo'>

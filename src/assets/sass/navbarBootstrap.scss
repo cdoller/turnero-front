@@ -3,7 +3,7 @@
 .navbar-inicio{
     background-color: $dark-primary-color-shadow;
     border-bottom: 2px $divider-color solid ;
-
+    width: 100vw;
     .contenedor-navbar{
     width: 100%;
     display: flex;
@@ -27,7 +27,7 @@
     }
 
     .hamburguesa-nav{
-    background-color: $accent-color;
+    background-color: $dark-primary-color-shadow;
     box-shadow: $shadow-color 0px 0px 0px 2px;
     &:hover {
         box-shadow: rgb(42, 42, 42) 0px 0px 5px 2px;
@@ -38,3 +38,4 @@
 }
 
 }
+

@@ -1,14 +1,57 @@
 .styleCarrousel {
   width: 100vw;
-  height: auto;
+  min-height: 100vh;
   box-sizing: border-box;
   position: relative;
 }
 .styleCarrousel .styleItem {
-  object-fit: "contain";
+  object-fit: contain;
 }
 .styleCarrousel .imagenesCarousel {
   object-fit: cover;
   max-block-size: 100vh;
+  min-height: 100vh;
   border-bottom: 1px #BDBDBD solid;
+}
+.styleCarrousel .carousel-indicators button {
+  background-color: #FF9600;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.styleCarrousel .carousel-control-next-icon, .styleCarrousel .carousel-control-prev-icon {
+  background-color: #B2DFDB;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.styleCarrousel .carousel-control-next-icon:hover, .styleCarrousel .carousel-control-prev-icon:hover {
+  background-color: #00796B;
+  border-color: #B2DFDB;
+  box-shadow: rgb(42, 42, 42) 0px 0px 5px 2px;
+}
+
+@media screen and (max-width: 768px) {
+  .styleCarrousel .imagenesCarousel {
+    object-fit: cover;
+    max-block-size: 100vh;
+    border-bottom: 1px #BDBDBD solid;
+  }
+}
+@media screen and (max-width: 425px) {
+  .styleCarrousel {
+    width: 100vw;
+    height: 50vh;
+    /*
+    .carousel-indicators button{
+        width: 1rem;
+        height: 1rem;
+    }*/
+  }
+  .styleCarrousel .carousel-control-next-icon, .styleCarrousel .carousel-control-prev-icon {
+    width: 1rem;
+    height: 1rem;
+  }
 }

@@ -6,14 +6,14 @@ const Welcome = () => {
             
             <div className="container container-style-welcome">
                 <div className="row row-welcome">
-                    <h1 className="col-8">Bienvenidos</h1>
-                </div>
-                <div className="row row-welcome">
-                    <p className="col-3">Sed ut perspiciatis unde omnis iste natus error sit volptatem accusantium doloremque.</p>
-                </div>
-                <div className="row row-welcome">
-                    <button className="col-2 btn btn-primary button-welcome">Read more</button> 
-                </div>            
+                    <div className="columna">
+                        <h1 className="colum-8" >Bienvenidos</h1>
+
+                        <p className="colum-3" >En este proyecto presentaremos nuestra aplicación, destinada a optimizar la organización de instituciones con alto flujo de personal. Podes solicitar una demostración gratuita de nuestro producto.</p>
+                    
+                        <a className="colum-2 btn btn-primary button-welcome"  href="#Seccion-Contacto">Solicitar DEMO</a> 
+                    </div> 
+                </div>           
             </div>
         
     )
