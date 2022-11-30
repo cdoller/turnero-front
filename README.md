@@ -31,6 +31,6 @@ Html , JavaScript, React, Sass y Css.
 1. Administrar Turnos
 2. Historia Clínica
 
+[Turnero-front] (http://turn-ero.herokuapp.com/#Seccion-Contacto "Turnero-front")
 
-[Turnero-front](http://http://turn-ero.herokuapp.com/#Seccion-Contacto "Turnero-front")
 
