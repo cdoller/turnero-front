@@ -6,7 +6,7 @@ import '../assets/css/Carrousel.css';
 import Welcome from './Welcome';
 
 const Carrousel = (props)=>{
-
+ 
     return (
         <Carousel className='styleCarrousel position-relativecode '>
             <Carousel.Item className='itemCarousel'>
@@ -16,7 +16,7 @@ const Carrousel = (props)=>{
                 src={InicioPic1}
                 alt="First slide"
                 />
-                <Carousel.Caption >
+                <Carousel.Caption className='captionCarouselHome'>
                     <Welcome></Welcome>                               
                 </Carousel.Caption>
             </Carousel.Item>
@@ -27,7 +27,7 @@ const Carrousel = (props)=>{
                 src={InicioPic2}
                 alt="Second slide"
                 />
-                <Carousel.Caption >
+                <Carousel.Caption className='captionCarouselHome'>
                     <Welcome></Welcome>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -38,7 +38,7 @@ const Carrousel = (props)=>{
                 src={InicioPic3}
                 alt="Third slide"
                 />
-                <Carousel.Caption >
+                <Carousel.Caption className='captionCarouselHome'>
                     <Welcome></Welcome>               
                 </Carousel.Caption>
             </Carousel.Item>

@@ -1,34 +1,94 @@
 @import './variables/colores';
 
-.Welcome{
-    margin: 80px;
+.container-style-welcome{
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     text-align: left;
-}
-
-.container-style-welcome{
-    padding: 20%;
-}
-
-.row-welcome{
-    margin: 50px;
-    text-align: left;
-    color: $primary-text-color;
-}
-
-.button-welcome{
-    width: 25%;
-    background-color: $ok-primary-color;
-    border-color: $ok-primary-color;  
-    --bs-btn-active-bg: #009688;
-    --bs-btn-active-border-color: #009688;
-    &:hover {
-        background-color: $dark-primary-color;
-        border-color: $dark-primary-color;
-        box-shadow: rgb(42, 42, 42) 0px 0px 5px 2px;
+    padding: 5%;
+    
+    
+    .colum-8{
+        color: $text-icons-color;
     }
+    .colum-3{
+        color: $text-icons-color;
+    }
+
+    .row-welcome{
         
+        height: 50vh;   
+        margin: 50px;
+        max-width: 40%;
+        text-align: justify;        
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 50px;
+        background-color: $shadow-color;
+        border-radius: 30px;
+        color: $primary-text-color;
+
+    }
+
+    .button-welcome{
+        
+        background-color: $accent-color;
+        border-color: $accent-color;  
+        --bs-btn-active-bg: #FF9600;
+        --bs-btn-active-border-color: #FF9600;
+        width: 60%;
+        &:hover {
+            background-color: $accent-light-color;
+            border-color: $accent-light-color;
+            box-shadow: rgb(42, 42, 42) 0px 0px 5px 2px;
+        }
+            
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .container-style-welcome{  
+        height: 100vh;
+        width: 100vw;
+        margin: 0px;
+    }
+    .row-welcome{
+        padding: 0px;
+        max-width: 100%;
+        width: 100%;
+        margin: 0px;
+    }
+    .colum-8{
+        width:60%;
+    }
+    .button-welcome{
+        margin-left: 30%;
+    }
+}
+
+
+@media screen and (max-width: 425px){
+.container-style-welcome{   
+    
+    height: 100vh;
+    width: 80vw;
+    margin: 0px;
+    .row-welcome{
+        padding: 0px;
+        max-width: 100%;
+        width: 100%;
+        margin: 0px;
+    }
+    .colum-3{
+        padding: 5px;
+    }
+    .colum-8{
+        padding: 5px;
+    }
+    .button-welcome{
+        margin-left: 50px;
+    }
+}
 }
