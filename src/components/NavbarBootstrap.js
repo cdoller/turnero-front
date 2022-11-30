@@ -9,7 +9,7 @@ const NavBar = () => {
     return(
         <>     
 
-            <Navbar className="navbar-inicio position-absolute zindex-toast" fixed="top" sticky="top" expand="lg">
+            <Navbar className="navbar-inicio position-absolute zindex-toast Paste" fixed="top" sticky="top" expand="lg">
             <Container>
                 <Navbar.Brand href="#home">
                 <img src={imgTurnero} 

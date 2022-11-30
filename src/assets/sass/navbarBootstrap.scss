@@ -4,6 +4,10 @@
     background-color: $dark-primary-color-shadow;
     border-bottom: 2px $divider-color solid ;
     width: 100vw;
+    .Paste{
+        position: fixed;
+        top: 0;
+    }
     .contenedor-navbar{
     width: 100%;
     display: flex;
@@ -39,3 +43,21 @@
 
 }
 
+
+@media screen and (max-width: 425px){
+    
+    a.button-navbar.nav-link{
+        font-size: 10px;
+        text-align: right;
+        padding: 1px 10px;
+    }
+    button.hamburguesa-nav.navbar-toggler{
+        padding: 2px 6px;
+
+    }
+    span.navbar-toggler-icon{
+        width: 1rem;
+        height: 1rem;
+    }
+    
+}
