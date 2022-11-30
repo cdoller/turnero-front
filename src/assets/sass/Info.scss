@@ -3,11 +3,12 @@
 .Info{
     align-items: flex-start;
     background-color: $text-icons-color;
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 
     .container-info{
         display: flex;
@@ -58,7 +59,7 @@
         font-weight: 600;
     }
 }
-
+ 
 @media screen and (max-width: 425px){
     .Info{
         min-height: 100vh;

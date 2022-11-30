@@ -35,6 +35,12 @@
   font-weight: bold;
   text-transform: uppercase;
 }
+.ContenedorAcordeon .accordion-button:hover {
+  box-shadow: #757575 0px 0px 5px 2px;
+  border-radius: 5px;
+  color: #009688;
+  font-weight: bold;
+}
 .ContenedorAcordeon .accordion-button:focus {
   --bs-accordion-active-bg:white;
   --bs-accordion-btn-focus-border-color:white;

@@ -1,31 +1,81 @@
-.Welcome {
-  margin: 80px;
+.container-style-welcome {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   text-align: left;
+  padding: 5%;
 }
-
-.container-style-welcome {
-  padding: 20%;
+.container-style-welcome .colum-8 {
+  color: white;
 }
-
-.row-welcome {
+.container-style-welcome .colum-3 {
+  color: white;
+}
+.container-style-welcome .row-welcome {
+  height: 50vh;
   margin: 50px;
-  text-align: left;
+  max-width: 40%;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 50px;
+  background-color: rgba(44, 43, 43, 0.487);
+  border-radius: 30px;
   color: #212121;
 }
-
-.button-welcome {
-  width: 25%;
-  background-color: #009688;
-  border-color: #009688;
-  --bs-btn-active-bg: #009688;
-  --bs-btn-active-border-color: #009688;
+.container-style-welcome .button-welcome {
+  background-color: #FF9600;
+  border-color: #FF9600;
+  --bs-btn-active-bg: #FF9600;
+  --bs-btn-active-border-color: #FF9600;
+  width: 60%;
 }
-.button-welcome:hover {
-  background-color: #00796B;
-  border-color: #00796B;
+.container-style-welcome .button-welcome:hover {
+  background-color: #ffbb00;
+  border-color: #ffbb00;
   box-shadow: rgb(42, 42, 42) 0px 0px 5px 2px;
+}
+
+@media screen and (max-width: 1024px) {
+  .container-style-welcome {
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+  }
+  .row-welcome {
+    padding: 0px;
+    max-width: 100%;
+    width: 100%;
+    margin: 0px;
+  }
+  .colum-8 {
+    width: 60%;
+  }
+  .button-welcome {
+    margin-left: 30%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .container-style-welcome {
+    height: 100vh;
+    width: 80vw;
+    margin: 0px;
+  }
+  .container-style-welcome .row-welcome {
+    padding: 0px;
+    max-width: 100%;
+    width: 100%;
+    margin: 0px;
+  }
+  .container-style-welcome .colum-3 {
+    padding: 5px;
+  }
+  .container-style-welcome .colum-8 {
+    padding: 5px;
+  }
+  .container-style-welcome .button-welcome {
+    margin-left: 50px;
+  }
 }

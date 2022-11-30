@@ -1,6 +1,7 @@
 .navbar-inicio {
   background-color: rgba(0, 121, 107, 0.3921568627);
   border-bottom: 2px #BDBDBD solid;
+  width: 100vw;
 }
 .navbar-inicio .contenedor-navbar {
   width: 100%;
@@ -23,7 +24,7 @@
   color: #212121;
 }
 .navbar-inicio .hamburguesa-nav {
-  background-color: #FF9600;
+  background-color: rgba(0, 121, 107, 0.3921568627);
   box-shadow: rgba(44, 43, 43, 0.487) 0px 0px 0px 2px;
 }
 .navbar-inicio .hamburguesa-nav:hover {
