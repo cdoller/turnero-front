@@ -8,6 +8,29 @@ Accedé desde cualquier dispositivo.
 Interfaz simple e intuitiva para un fácil manejo.
 ##### - PERSONALIZADO
 El sistema tendrá tu logo, colores y un acceso con subdominio propio ej. tuempresa.turnos.app
+#### - LENGUAJE UTILIZADO
+Html , JavaScript, React, Sass y Css.
+#### - FUNCIONES DE LA APLICACION
+###### Administrador/Secretario
+
+1. Administrar turno
+2. Enviar notificaciones
+3. Historia Clinica
+4. Alta/Modificacion Pacientes
+5. Alta/Modificacio Profecionales
+
+###### Clientes/Pacientes
+
+1. Administrar Turnos
+2. Editar Informacion Personal
+3. Ver Resultado De Estudios
+4. Contacto
+
+###### Profesionales
+
+1. Administrar Turnos
+2. Historia Clínica
+
 
 [Turnero-front](http://http://turn-ero.herokuapp.com/#Seccion-Contacto "Turnero-front")
 
