@@ -3,6 +3,10 @@
   border-bottom: 2px #BDBDBD solid;
   width: 100vw;
 }
+.navbar-inicio .Paste {
+  position: fixed;
+  top: 0;
+}
 .navbar-inicio .contenedor-navbar {
   width: 100%;
   display: flex;
@@ -32,4 +36,19 @@
 }
 .navbar-inicio .hamburguesa-nav:active {
   background-color: rgba(44, 43, 43, 0.487);
+}
+
+@media screen and (max-width: 425px) {
+  a.button-navbar.nav-link {
+    font-size: 10px;
+    text-align: right;
+    padding: 1px 10px;
+  }
+  button.hamburguesa-nav.navbar-toggler {
+    padding: 2px 6px;
+  }
+  span.navbar-toggler-icon {
+    width: 1rem;
+    height: 1rem;
+  }
 }

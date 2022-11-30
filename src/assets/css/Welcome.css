@@ -78,4 +78,8 @@
   .container-style-welcome .button-welcome {
     margin-left: 50px;
   }
+  .styleCarrousel .carosuel-indicators button {
+    width: 1rem;
+    height: 1rem;
+  }
 }
